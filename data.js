@@ -23,7 +23,7 @@ const RECIPES = [
     id: "spaghetti-carbonara",
     title: "Spaghetti Carbonara",
     tags: ["ručak", "večera"],
-    image: "",
+    image: "images/carbonara.jpg",
     description: "",
     ingredients: [
       "jaja 3",
