@@ -213,7 +213,10 @@ function playBellSound() {
 const timerMinutesInput = document.getElementById("timer-minutes");
 const timerToggleBtn = document.getElementById("timer-toggle");
 const timerDisplay = document.getElementById("timer-display");
-const alarmWidget = document.getElementById("alarm-widget");
+const alarmFloat = document.getElementById("alarm-float");
+const alarmFloatHandle = document.getElementById("alarm-float-handle");
+const alarmCloseBtn = document.getElementById("alarm-close");
+const timerOpenBtn = document.getElementById("timer-open-btn");
 
 let timerIntervalId = null;
 let timerRemainingSeconds = 0;
@@ -244,7 +247,7 @@ function stopTimerInterval() {
 }
 
 function ringAlarm() {
-  alarmWidget.classList.add("is-ringing");
+  alarmFloat.classList.add("is-ringing");
   playBellSound();
   clearTimeout(timerRingTimeoutId);
   timerRingTimeoutId = setTimeout(resetTimer, 2400);
@@ -280,7 +283,7 @@ function resetTimer() {
   timerToggleBtn.textContent = "▶";
   timerToggleBtn.classList.remove("is-running");
   timerToggleBtn.setAttribute("aria-label", "Pokreni tajmer");
-  alarmWidget.classList.remove("is-ringing");
+  alarmFloat.classList.remove("is-ringing");
 }
 
 timerToggleBtn.addEventListener("click", () => {
@@ -290,6 +293,64 @@ timerToggleBtn.addEventListener("click", () => {
     startTimer();
   }
 });
+
+// otvaranje/zatvaranje plutajućeg panela, uvek na početku u gornjem desnom uglu
+function openAlarmFloat() {
+  alarmFloat.style.left = "";
+  alarmFloat.style.top = "";
+  alarmFloat.hidden = false;
+  timerOpenBtn.classList.add("is-active");
+}
+
+function closeAlarmFloat() {
+  alarmFloat.hidden = true;
+  timerOpenBtn.classList.remove("is-active");
+}
+
+timerOpenBtn.addEventListener("click", () => {
+  if (alarmFloat.hidden) {
+    openAlarmFloat();
+  } else {
+    closeAlarmFloat();
+  }
+});
+
+alarmCloseBtn.addEventListener("click", closeAlarmFloat);
+
+// prevlačenje panela po ekranu preko ručke
+let isDraggingAlarm = false;
+let dragOffsetX = 0;
+let dragOffsetY = 0;
+
+alarmFloatHandle.addEventListener("pointerdown", (e) => {
+  if (e.target === alarmCloseBtn) return; // ne pokreći drag preko dugmeta za zatvaranje
+  isDraggingAlarm = true;
+  const rect = alarmFloat.getBoundingClientRect();
+  dragOffsetX = e.clientX - rect.left;
+  dragOffsetY = e.clientY - rect.top;
+  alarmFloat.style.right = "auto";
+  alarmFloat.style.left = `${rect.left}px`;
+  alarmFloat.style.top = `${rect.top}px`;
+  alarmFloat.classList.add("is-dragging");
+  alarmFloatHandle.setPointerCapture(e.pointerId);
+});
+
+alarmFloatHandle.addEventListener("pointermove", (e) => {
+  if (!isDraggingAlarm) return;
+  const maxLeft = window.innerWidth - alarmFloat.offsetWidth;
+  const maxTop = window.innerHeight - alarmFloat.offsetHeight;
+  const newLeft = Math.min(Math.max(0, e.clientX - dragOffsetX), maxLeft);
+  const newTop = Math.min(Math.max(0, e.clientY - dragOffsetY), maxTop);
+  alarmFloat.style.left = `${newLeft}px`;
+  alarmFloat.style.top = `${newTop}px`;
+});
+
+function endAlarmDrag() {
+  isDraggingAlarm = false;
+  alarmFloat.classList.remove("is-dragging");
+}
+alarmFloatHandle.addEventListener("pointerup", endAlarmDrag);
+alarmFloatHandle.addEventListener("pointercancel", endAlarmDrag);
 
 // ---------------------------------------------------------------------------
 // ekran ostaje uključen dok je recept otvoren
@@ -345,6 +406,7 @@ function showBrowse() {
   detailView.hidden = true;
   browseView.hidden = false;
   resetTimer();
+  closeAlarmFloat();
   releaseWakeLock();
 }
 
@@ -354,6 +416,7 @@ function showDetail(recipe) {
   detailView.hidden = false;
   window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
   resetTimer();
+  closeAlarmFloat();
   requestWakeLock();
 }
 

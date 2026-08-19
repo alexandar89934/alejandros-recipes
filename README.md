@@ -29,7 +29,7 @@ Ubaci slike u `images/` i referenciraj ih iz `data.js` kao `images/tvoj-fajl.jpg
 
 ## Tajmer
 
-U gornjem desnom uglu strane recepta nalazi se mali retro budilnik: upiši broj minuta ispod njega (dozvoljene su i decimale, npr. `2.5`) i klikni na dugme ▶. Kad odbrojavanje dođe do nule, budilnik se "zatrese" i oglasi kratko retro zvonce (generisano direktno u browseru — nije potrebna nikakva audio datoteka), a zatim se sam vrati na početak. Klik na dugme dok tajmer radi ga odmah zaustavlja i resetuje. Tajmer se automatski resetuje i kad odeš na drugi recept ili se vratiš u pregled.
+Pored naslova recepta nalazi se malo dugme sa ikonicom sata. Klik na njega otvara mali retro budilnik koji lebdi preko ekrana (uvek se prvo pojavi u gornjem desnom uglu) — možeš ga prevući bilo gde tako što ga uhvatiš za ručku (⠿) na vrhu panela. Upiši broj minuta ispod sata (dozvoljene su i decimale, npr. `2.5`) i klikni na dugme ▶. Kad odbrojavanje dođe do nule, budilnik se "zatrese" i oglasi kratko retro zvonce (generisano direktno u browseru — nije potrebna nikakva audio datoteka), a zatim se sam zatvori. Klik na ✕ ili na dugme sa satom ga zatvara ručno. Panel se automatski zatvara i resetuje kad odeš na drugi recept ili se vratiš u pregled.
 
 ## Ekran ostaje uključen
 

@@ -202,17 +202,10 @@ body{
 ----------------------------------------------------------------------- */
 .detail-topbar{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1.4rem;
-}
-
-.topbar-right{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.5rem;
 }
 
 .back-btn{
@@ -223,7 +216,7 @@ body{
   border: none;
   color: var(--brick);
   cursor: pointer;
-  padding: 0.3rem 0 0;
+  padding: 0;
 }
 .back-btn:hover{ text-decoration: underline; }
 .back-btn:focus-visible{ outline: 2px solid var(--brick); outline-offset: 3px; }
@@ -265,12 +258,41 @@ body{
   margin-bottom: 0.9rem;
 }
 
+.detail-title-row{
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
 .detail-title{
   font-family: var(--display);
   font-weight: 600;
   font-size: clamp(1.6rem, 4vw, 2.3rem);
-  margin: 0 0 0.6rem;
+  margin: 0;
   line-height: 1.15;
+}
+
+.timer-fab{
+  flex-shrink: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--teal);
+  background: transparent;
+  color: var(--teal);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.timer-fab svg{ width: 1.15rem; height: 1.15rem; }
+.timer-fab:hover{ transform: translateY(-1px); }
+.timer-fab:focus-visible{ outline: 2px solid var(--brick); outline-offset: 2px; }
+.timer-fab.is-active{
+  background: var(--teal);
+  color: var(--paper);
 }
 
 .detail-desc{
@@ -280,22 +302,66 @@ body{
   margin: 0 0 1.8rem;
 }
 
-.alarm-widget{
-  position: relative;
-  width: 92px;
+.alarm-float{
+  position: fixed;
+  top: 5.5rem;
+  right: 1.5rem;
+  z-index: 50;
+  width: 108px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.6rem 0.7rem;
+  box-shadow: 0 14px 30px -12px rgba(31, 58, 58, 0.4);
+}
+.alarm-float[hidden]{
+  display: none;
+}
+
+.alarm-float-handle{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: grab;
+  touch-action: none;
+  color: var(--ink-soft);
+  margin-bottom: 0.15rem;
+  user-select: none;
+}
+.alarm-float.is-dragging .alarm-float-handle{ cursor: grabbing; }
+.alarm-float-grip{ font-size: 0.8rem; letter-spacing: -1px; }
+
+.alarm-close{
+  background: none;
+  border: none;
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.15rem;
+}
+.alarm-close:hover{ color: var(--brick); }
+.alarm-close:focus-visible{ outline: 2px solid var(--brick); outline-offset: 2px; }
+
+.alarm-face-wrap{
+  position: relative;
+  width: 84px;
+  height: 84px;
 }
 
 .alarm-clock{
-  width: 92px;
-  height: 92px;
+  width: 84px;
+  height: 84px;
   display: block;
   transform-origin: 50% 90%;
+  pointer-events: none;
 }
-.alarm-body{ fill: var(--card); stroke: var(--ink); stroke-width: 3; }
-.alarm-face{ fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
+.alarm-body{ fill: var(--paper); stroke: var(--ink); stroke-width: 3; }
+.alarm-face{ fill: var(--card); stroke: var(--line); stroke-width: 1.5; }
 .alarm-bell{ fill: var(--teal); stroke: var(--ink); stroke-width: 2.5; }
 .alarm-leg{ stroke: var(--ink); stroke-width: 3; stroke-linecap: round; }
 .alarm-strike{ stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; }
@@ -305,13 +371,14 @@ body{
 
 .alarm-time{
   position: absolute;
-  top: 47px;
   left: 0;
   right: 0;
+  top: 48px;
+  transform: translateY(-50%);
   text-align: center;
   font-family: var(--mono);
   font-weight: 500;
-  font-size: 0.92rem;
+  font-size: 0.85rem;
   color: var(--ink);
   letter-spacing: 0.01em;
   font-variant-numeric: tabular-nums;
@@ -322,7 +389,7 @@ body{
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  margin-top: 0.35rem;
+  margin-top: 0.6rem;
 }
 
 .alarm-input{
@@ -379,10 +446,10 @@ body{
   20%, 40%, 60%, 80% { transform: rotate(9deg); }
   90%        { transform: rotate(0deg); }
 }
-.alarm-widget.is-ringing .alarm-clock{
+.alarm-float.is-ringing .alarm-clock{
   animation: alarmShake 0.5s ease-in-out 3;
 }
-.alarm-widget.is-ringing .alarm-time{
+.alarm-float.is-ringing .alarm-time{
   color: var(--brick);
 }
 
@@ -487,7 +554,7 @@ body{
   .step{ grid-template-columns: 1.8rem 1fr; }
   .step::before{ width: 1.8rem; height: 1.8rem; font-size: 0.95rem; }
   .detail-topbar{ flex-wrap: wrap; }
-  .topbar-right{ align-items: flex-end; }
+  .alarm-float{ top: 4.5rem; right: 1rem; }
 }
 
 /* -----------------------------------------------------------------------

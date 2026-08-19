@@ -44,6 +44,32 @@ const RECIPES = [
     ]
   },
   {
+    id: "gibanica-sa-sirom",
+    title: "Gibanica sa sirom",
+    tags: ["doručak", "ručak", "večera"],
+    image: "images/gibanica.jpg",
+    description: "Sočna i hrskava gibanica sa sirom, jajima i kiselom pavlakom.",
+    ingredients: [
+      "deblje kore 600g",
+      "sir 500g",
+      "jaja 4-5",
+      "kisela voda 2dl",
+      "ulje 1/2 čaše",
+      "prašak za pecivo 1 kesica",
+      "kisela pavlaka 1 čaša",
+      "so 1-1,5 kašičica"
+    ],
+    steps: [
+      { text: "Umutite jaja žicom, izgnječite sir i pomešajte. Dodajte kiselu vodu, ulje, prašak za pecivo, so i kiselu pavlaku. Dobro sjedinite sve sastojke.", image: "" },
+      { text: "Nauljite tepsiju i stavite jednu i po koru tako da prekrije dno i malo viri sa svih strana tepsije.", image: "" },
+      { text: "Ostavite jednu celu koru sa strane za prekrivanje pite, a ostale kore isecite na pola. Svaku polovinu umočite u fil, zgužvajte i ređajte u tepsiju dok ne prekrijete celo dno.", image: "" },
+      { text: "Nastavite da umačete, gužvate i ređate kore dok ne potrošite sve kore i fil. Ako vam ostane malo fila, prelijte ga preko zgužvanih kora.", image: "" },
+      { text: "Kore koje vire iz pleha savijte prema unutra, a zatim preostalom celom korom prekrijte celu pitu tako što ćete je malo zavući sa svih strana.", image: "" },
+      { text: "Poprskajte gibanicu sa malo ulja i kisele vode, pa pecite oko 40 minuta u prethodno zagrejanoj rerni na 200°C.", image: "" },
+      { text: "Kada izvadite gibanicu iz rerne, možete je prekriti čistom krpom kako bi se malo opustila. Prohlađenu gibanicu isecite na parčad.", image: "" }
+    ]
+  },
+  {
     id: "keto-sos-pavlaka-parmezan",
     title: "Keto sos od pavlake i parmezana",
     tags: ["ručak", "večera"],
