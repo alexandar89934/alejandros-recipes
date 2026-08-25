@@ -70,9 +70,9 @@ const RECIPES = [
     ]
   },
   {
-    id: "keto-sos-pavlaka-parmezan",
-    title: "Keto sos od pavlake i parmezana",
-    tags: ["ručak", "večera"],
+    id: "sos-pavlaka-parmezan",
+    title: "Sos od pavlake i parmezana",
+    tags: ["ručak", "večera", "sos"],
     image: "",
     description: "",
     ingredients: [
@@ -96,7 +96,7 @@ const RECIPES = [
   {
     id: "gulas",
     title: "Gulaš",
-    tags: ["ručak", "večera"],
+    tags: ["ručak"],
     image: "",
     description: "",
     ingredients: [
@@ -178,84 +178,68 @@ const RECIPES = [
     ]
   },
   {
-    id: "zobena-kasa-preko-noci",
-    title: "Zobena kaša preko noći",
-    tags: ["doručak", "užina"],
-    image: "images/overnight-oats.jpg",
-    description: "Doručak koji se priprema unapred i samo čeka u frižideru dok spavaš. Jedva da je recept, a uvek dobrodošao.",
+    id: "cokoladni-sufle",
+    title: "Čokoladni sufle (Lava kolač)",
+    tags: ["dezert", "slatko"],
+    image: "images/cokoladni-sufle.jpg",
+    description: "Najbolji i najjednostavniji recept za čokoladni sufle gotov je za samo 15 minuta. Savršeno pečen sufle ima čvrste ivice i toplu, tečnu čokoladnu sredinu. Ključ uspeha je u preciznom vremenu pečenja.",
+    ingredients: [
+      "čokolada za kuvanje 200g",
+      "puter 150g (ili margarin)",
+      "jaja 4",
+      "šećer 100g",
+      "brašno 5 kašika (oko 100g)",
+      "puter za premazivanje kalupa",
+      "prah šećer ili kakao prah za posipanje kalupa"
+    ],
     steps: [
-      { text: "U teglu sipati ovsene pahuljice, mleko i jogurt.", image: "images/overnight-oats-1.jpg" },
-      { text: "Umešati med, seme chia i prstohvat soli.", image: "" },
-      { text: "Zatvoriti i ostaviti u frižideru bar 6 sati, najbolje preko noći.", image: "images/overnight-oats-3.jpg" },
-      { text: "Pred jelo dodati voće ili orašaste plodove po želji.", image: "" }
+      { text: "Na pari ili na tihoj vatri istopite čokoladu i puter uz lagano mešanje dok ne dobijete glatku i sjajnu smesu. Ostavite da se malo prohladi.", image: "" },
+      { text: "U posebnoj posudi penasto umutite cela jaja sa šećerom. Nema potrebe da odvajate belanca od žumanaca.", image: "" },
+      { text: "U umućena jaja postepeno dodajte prohlađenu smesu od čokolade i putera, lagano mešajući dok se sve ne sjedini. Na kraju dodajte brašno i umešajte ga dok ne dobijete ujednačenu smesu.", image: "" },
+      { text: "Kalupe za sufle premažite sa malo putera, a zatim ih pospite šećerom u prahu ili kakao prahom kako se kolač ne bi zalepio. Napunite kalupe smesom do oko 3/4 njihove visine.", image: "" },
+      { text: "Rernu prethodno zagrejte na 220°C. Pecite sufle tačno 7 do 10 minuta. Ivice treba da budu čvrste i pečene, dok sredina treba da ostane mekana i tečna.", image: "" },
+      { text: "Izvadite sufle iz rerne i ostavite ga kratko da odmori. Pažljivo ga prebacite na tanjir i pospite prah šećerom ili kakaom pre serviranja.", image: "" }
     ]
   },
   {
-    id: "sakshuka",
-    title: "Šakšuka",
-    tags: ["doručak", "ručak"],
-    image: "images/shakshuka.jpg",
-    description: "Jaja poširana u začinjenom sosu od paradajza i paprike. Jedan tiganj, najbolje jesti direktno iz njega uz hleb.",
+    id: "tart-sa-borovnicama-i-orasima",
+    title: "Tart sa borovnicama i orasima",
+    tags: ["dezert", "slatko"],
+    image: "images/tart-borovnice.jpg",
+    description: "Sočan tart sa hrskavom koricom od oraha, finim poslastičarskim kremom i osvežavajućim sosom od borovnica. Najbolji je dobro ohlađen, nakon nekoliko sati u frižideru ili preko noći.",
+    ingredients: [
+      "orah 90g, tostiran i samleven",
+      "brašno 100g",
+      "šećer 50g",
+      "vanilin šećer 1 kesica",
+      "hladan puter 75g, isečen na kockice",
+      "žumanca 2",
+      "cimet 1 kašičica",
+
+      "zamrznute borovnice 500g",
+      "šećer 2-3 kašike",
+      "skrob 2 pune kašičice",
+
+      "žumanca 5",
+      "šećer 5 kašika",
+      "vanilin šećer 1 kesica",
+      "brašno 3 kašike",
+      "mleko 400ml",
+      "puter 100g"
+    ],
     steps: [
-      { text: "Zagrejati maslinovo ulje u tiganju i propržiti luk i papriku dok ne omekšaju.", image: "images/shakshuka-1.jpg" },
-      { text: "Dodati beli luk, kim i alevu papriku; propržiti dok ne zamiriše.", image: "" },
-      { text: "Dodati zgnječeni paradajz i krčkati 10 minuta.", image: "images/shakshuka-3.jpg" },
-      { text: "Napraviti udubljenja u sosu, razbiti jaja u njih, poklopiti i kuvati dok se ne stegnu.", image: "images/shakshuka-4.jpg" },
-      { text: "Posuti peršunom i poslužiti uz topao hleb.", image: "" }
+      { text: "Za koricu pomešajte brašno, tostirane i samlevene orahe, šećer, vanilin šećer i cimet. Dodajte hladan puter isečen na kockice i utrljajte ga u smesu dok ne dobijete teksturu nalik mokrom pesku.", image: "" },
+      { text: "Dodajte žumanca i kratko promešajte viljuškom. Zatim mesite od spolja ka sredini, samo dok se svi sastojci ne sjedine i formiraju kuglu.", image: "" },
+      { text: "Testo oblikujte u disk, zavijte u foliju i stavite u frižider na oko sat vremena. Ako želite da ubrzate proces, možete ga staviti u zamrzivač na kraće vreme.", image: "" },
+      { text: "Zagrejte rernu na 180°C. Ohlađeno testo istanjite u krug i njime obložite podmazan kalup za tart. Prekrijte testo papirom za pečenje i napunite ga pirinčem, naročito uz ivice, kako bi korica zadržala oblik.", image: "" },
+      { text: "Stavite kalup još 5 minuta u zamrzivač, a zatim pecite koricu 10 minuta. Izvadite pirinač i papir za pečenje, pa nastavite da pečete još 15 minuta. Izvadite koricu iz rerne i ostavite je da se potpuno ohladi pre vađenja iz kalupa.", image: "" },
+      { text: "Za sos od borovnica stavite zamrznute borovnice i šećer u šerpicu i zagrevajte na tihoj vatri. Kada smesa provri, dodajte skrob razmućen u malo vode i mešajte oko 2 minuta.", image: "" },
+      { text: "Skinite sos sa ringle, prekrijte ga prijanjajućom folijom i ostavite da se potpuno ohladi.", image: "" },
+      { text: "Za poslastičarski krem pomešajte žumanca, šećer, vanilin šećer i brašno. Postepeno dodajte mleko, kašiku po kašiku, uz neprestano mešanje žicom dok ne dobijete glatku i tečnu smesu.", image: "" },
+      { text: "Ostatak mleka stavite u šerpu i zagrejte do ključanja. Skinite sa ringle i lagano sipajte smesu od jaja uz neprestano mešanje. Vratite šerpu na vatru i kuvajte uz mešanje dok krem ne proključa i ne zgusne se.", image: "" },
+      { text: "Prekrijte krem prijanjajućom folijom i ostavite ga da se ohladi na sobnoj temperaturi. Dodajte omekšali puter i umutite dok ne dobijete gladak i fin krem. Ako koristite margarin, prvo ga posebno umutite, a zatim postepeno dodajte puding, po jednu kašiku.", image: "" },
+      { text: "Ohlađeni poslastičarski krem ravnomerno rasporedite preko ohlađene korice od oraha. Preko krema pažljivo rasporedite potpuno ohlađen sos od borovnica.", image: "" },
+      { text: "Tart stavite u frižider na najmanje 2 sata, a najbolje preko noći, kako bi se lepo ohladio i stegao pre služenja.", image: "" }
     ]
   },
-  {
-    id: "tortilja-piletina-cezar",
-    title: "Tortilja sa piletinom i Cezar prelivom",
-    tags: ["ručak"],
-    image: "images/caesar-wrap.jpg",
-    description: "",
-    steps: [
-      { text: "Iseckati kuvane pileće grudi na trakice.", image: "" },
-      { text: "Izmešati zelenu salatu, piletinu, parmezan i preliv.", image: "images/caesar-wrap-2.jpg" },
-      { text: "Smesu poređati po sredini tople tortilje i čvrsto zamotati.", image: "" },
-      { text: "Preseći po dijagonali i poslužiti.", image: "" }
-    ]
-  },
-  {
-    id: "losos-i-povrce-iz-pleha",
-    title: "Losos i povrće iz jednog pleha",
-    tags: ["večera"],
-    image: "images/salmon.jpg",
-    description: "Losos i povrće se peku zajedno na jednom plehu, pa je pranje sudova gotovo nikakvo.",
-    steps: [
-      { text: "Zagrejati rernu na 220°C.", image: "" },
-      { text: "Na pleh staviti brokoli i čeri paradajz, začiniti uljem, solju i biberom.", image: "images/salmon-1.jpg" },
-      { text: "Peći 8 minuta, zatim povrće pomeriti na stranu.", image: "" },
-      { text: "Na pleh staviti filete lososa, začiniti i peći još 10–12 minuta.", image: "images/salmon-3.jpg" },
-      { text: "Pred serviranje preliti limunovim sokom.", image: "" }
-    ]
-  },
-  {
-    id: "rizoto-sa-pecurkama",
-    title: "Rižoto sa pečurkama",
-    tags: ["večera"],
-    image: "images/risotto.jpg",
-    description: "Sporo, uz stalno mešanje, ali vredi svakog minuta provedenog uz šporet.",
-    steps: [
-      { text: "Propržiti pečurke dok ne porumene; skloniti sa strane.", image: "images/risotto-1.jpg" },
-      { text: "U istom loncu propržiti luk, zatim kratko propržiti pirinač.", image: "" },
-      { text: "Dodavati toplu supu kutlačom po kutlačom, mešajući dok se ne upije.", image: "images/risotto-3.jpg" },
-      { text: "Posle otprilike 20 minuta umešati pečurke, puter i parmezan.", image: "" },
-      { text: "Ostaviti da odstoji 2 minuta van vatre pre serviranja.", image: "" }
-    ]
-  },
-  {
-    id: "humus-za-pet-minuta",
-    title: "Humus za pet minuta",
-    tags: ["užina", "ručak"],
-    image: "images/hummus.jpg",
-    description: "Umuti se za onoliko vremena koliko treba da se iseče povrće za umakanje.",
-    steps: [
-      { text: "U multipraktik staviti slanutak, tahini, limunov sok i beli luk.", image: "" },
-      { text: "Mešati uz postepeno dodavanje maslinovog ulja dok smesa ne postane glatka.", image: "images/hummus-2.jpg" },
-      { text: "Po potrebi dodati kašiku vode da se razblaži, posoliti po ukusu.", image: "" },
-      { text: "Razmazati na tanjir, preliti uljem i poslužiti.", image: "" }
-    ]
-  }
-];
+]
