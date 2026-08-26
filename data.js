@@ -149,7 +149,7 @@ const RECIPES = [
     id: "francuski-tart-borovnice",
     title: "Francuski tart sa borovnicama i krem sirom",
     tags: ["dezert"],
-    image: "",
+    image: "images/francuski-tart-borovnice.png",
     description: "",
     ingredients: [
       "Podloga:",
@@ -240,6 +240,33 @@ const RECIPES = [
       { text: "Prekrijte krem prijanjajućom folijom i ostavite ga da se ohladi na sobnoj temperaturi. Dodajte omekšali puter i umutite dok ne dobijete gladak i fin krem. Ako koristite margarin, prvo ga posebno umutite, a zatim postepeno dodajte puding, po jednu kašiku.", image: "" },
       { text: "Ohlađeni poslastičarski krem ravnomerno rasporedite preko ohlađene korice od oraha. Preko krema pažljivo rasporedite potpuno ohlađen sos od borovnica.", image: "" },
       { text: "Tart stavite u frižider na najmanje 2 sata, a najbolje preko noći, kako bi se lepo ohladio i stegao pre služenja.", image: "" }
+    ]
+  },
+  {
+    id: "njoke-u-paradajz-sosu",
+    title: "Njoke u paradajz sosu",
+    tags: ["ručak", "brzo", "sos"],
+    image: "images/njoke-paradajz-sos.jpg",
+    description: "Brz i jednostavan obrok sa njokama u ukusnom paradajz sosu, začinjenim origanom i svežim bosiljkom.",
+    ingredients: [
+      "bosiljak 5g",
+      "brašno 10g",
+      "njoke 400g",
+      "crni luk 100g",
+      "paradajz sos 150g",
+      "origano 5g",
+      "šećer 10g",
+      "so po ukusu",
+      "biber po ukusu",
+      "maslinovo ulje za dinstanje"
+    ],
+    steps: [
+      { text: "Na nauljenom tiganju izdinstajte sitno iseckan crni luk dok ne omekša i postane staklast.", image: "" },
+      { text: "Dodajte iseckan paradajz, posolite i pobiberite. Kuvajte uz povremeno mešanje, naročito kada paradajz počne da ključa.", image: "" },
+      { text: "Dodajte kašičicu šećera i kašiku brašna, pa dobro promešajte kako bi se sos zgusnuo i dobio željenu gustinu.", image: "" },
+      { text: "Dok se sos kuva, u posebnoj šerpi stavite vodu da proključa. Kada voda provri, ubacite njoke i kuvajte ih nekoliko minuta, odnosno prema uputstvu sa pakovanja.", image: "" },
+      { text: "Kuvane njoke ocedite i dodajte ih u pripremljeni paradajz sos. Pažljivo promešajte kako bi se njoke ravnomerno obložile sosom.", image: "" },
+      { text: "Začinite origanom i svežim bosiljkom, kratko promešajte i poslužite dok je toplo.", image: "" }
     ]
   },
 ]
