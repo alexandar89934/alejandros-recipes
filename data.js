@@ -269,4 +269,27 @@ const RECIPES = [
       { text: "Začinite origanom i svežim bosiljkom, kratko promešajte i poslužite dok je toplo.", image: "" }
     ]
   },
+  {
+    id: "pesto-sos",
+    title: "Pesto sos",
+    tags: ["sos", "brzo", "vegetarijansko"],
+    image: "images/pesto-sos.jpg",
+    description: "Klasičan pesto sos od svežeg bosiljka, pinjola, parmezana, belog luka i maslinovog ulja. Idealan je uz testeninu, njoke, sendviče ili kao dodatak različitim jelima.",
+    ingredients: [
+      "svež bosiljak 100g",
+      "beli luk 4 čena",
+      "pinjoli 100g",
+      "parmezan 100g",
+      "maslinovo ulje 200ml",
+      "so po ukusu"
+    ],
+    steps: [
+      { text: "Svež bosiljak operite i dobro osušite. Odvojite listove od stabljika.", image: "" },
+      { text: "U blender ili secko stavite listove bosiljka, čenove belog luka i pinjole.", image: "" },
+      { text: "Dodajte narendani parmezan i kratko izmiksajte sve sastojke.", image: "" },
+      { text: "Postepeno dodajte maslinovo ulje uz miksanje dok ne dobijete gust, kremast sos željene teksture.", image: "" },
+      { text: "Probajte pesto i dodajte so po ukusu. Kratko još jednom izmiksajte kako bi se svi sastojci sjedinili.", image: "" },
+      { text: "Gotov pesto sos možete odmah koristiti uz testeninu, njoke ili drugo jelo. Čuvajte ga u frižideru u zatvorenoj posudi.", image: "" }
+    ]
+  },
 ]
