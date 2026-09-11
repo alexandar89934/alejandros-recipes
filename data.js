@@ -202,6 +202,38 @@ const RECIPES = [
     ]
   },
   {
+    id: "cokoladni-tart",
+    title: "Čokoladni tart",
+    tags: ["dezert", "slatko", "čokolada"],
+    image: "images/cokoladni-tart.jpg",
+    description: "Bogat i kremast čokoladni tart sa hrskavom podlogom od čokoladnog keksa i glatkim ganache punjenjem od tamne čokolade. Najbolji je dobro ohlađen, nakon nekoliko sati u frižideru ili preko noći.",
+    ingredients: [
+      "čokoladni keks 600g, mleven",
+      "maslac bez laktoze 190g, otopljen",
+
+      "tamna čokolada 70% 600g, sitno seckana",
+      "slatko vrhnje bez laktoze (30% m.m.) 500ml",
+      "šećer u prahu 5-10g",
+      "ekstrakt vanilije 10ml",
+      "so 2-3 prstohvata",
+
+      "tamna čokolada 30-50g, za strugotine (opciono, za dekoraciju)"
+    ],
+    steps: [
+      { text: "Sameljite čokoladni keks i pomešajte ga sa otopljenim maslacem bez laktoze dok se dobro ne sjedine.", image: "" },
+      { text: "Smesu utisnite u kalup od 28 cm, dobro pritiskajući dno i stranice (najlakše dnom čaše). Stavite u frižider na 30-45 minuta da se potpuno stegne.", image: "" },
+      { text: "Ako želite čvršću, hrskaviju podlogu, možete je peći oko 10 minuta na 175°C, pa je potpuno ohladiti pre nego što nastavite sa ganacheom.", image: "" },
+      { text: "Nasečkajte tamnu čokoladu na sitne komadiće i stavite je u veliku zdelu.", image: "" },
+      { text: "U lončiću zagrevajte vrhnje sa šećerom u prahu i solju na srednjoj temperaturi. Nemojte dozvoliti da jako proključa - čim je vrhnje vrlo vruće i počnu da se pojavljuju sitni mehurići uz ivicu, sklonite ga sa vatre.", image: "" },
+      { text: "Dodajte ekstrakt vanilije u vruće vrhnje.", image: "" },
+      { text: "Vruće vrhnje prelijte preko nasečkane čokolade. Ne mešajte odmah - pustite da odstoji oko 2 minuta kako bi se čokolada rastopila.", image: "" },
+      { text: "Nakon toga, mešajte pjenjačom polako od sredine ka spolja dok ganache ne postane potpuno gladak i sjajan.", image: "" },
+      { text: "Gotov ganache sipajte preko ohlađene podloge i poravnajte površinu.", image: "" },
+      { text: "Tart stavite u frižider na najmanje 2 sata, a najbolje preko noći, dok se ganache potpuno ne stegne.", image: "" },
+      { text: "Pre serviranja, po želji ukrasite strugotinama tamne čokolade.", image: "" }
+    ]
+  },
+  {
     id: "tart-sa-borovnicama-i-orasima",
     title: "Tart sa borovnicama i orasima",
     tags: ["dezert", "slatko"],
