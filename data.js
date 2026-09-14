@@ -275,6 +275,41 @@ const RECIPES = [
     ]
   },
   {
+    id: "cizkejk-sa-sumskim-vocem",
+    title: "Čizkejk sa šumskim voćem",
+    tags: ["dezert", "slatko", "čizkejk"],
+    image: "images/cizkejk-sa-sumskim-vocem.jpg",
+    description: "Kremasti čizkejk sa hrskavom koricom od Plazme, laganim filom od Ella sira i slatke pavlake i osvežavajućim prelivom od šumskog voća. Najbolji je dobro ohlađen, nakon nekoliko sati u frižideru ili preko noći.",
+    ingredients: [
+      "mlevena Plazma 300g",
+      "maslac 125g",
+      "šećer u prahu 2 kašike",
+
+      "Ella sir 450g",
+      "slatka pavlaka 500ml",
+      "šećer u prahu 250g",
+      "želatin 1 kesica",
+
+      "mix šumskog voća 400g",
+      "voda 100ml",
+      "kristal šećer 4 kašike",
+      "želatin 1 kesica"
+    ],
+    steps: [
+      { text: "Za koricu maslac isečen na kockice pomešajte sa mlevenom Plazmom i šećerom u prahu. Rukama dobro sjedinite sastojke dok ne dobijete kompaktnu smesu.", image: "" },
+      { text: "Smesu ravnomerno rasporedite u okrugli kalup za torte i dobro utisnite ka dnu kako biste formirali čvrstu koricu. Ostavite je sa strane dok pripremate fil.", image: "" },
+      { text: "Za fil umutite slatku pavlaku dok ne postane čvrsta. U drugoj posudi kašikom sjedinite Ella sir i šećer u prahu.", image: "" },
+      { text: "Dodajte umućenu slatku pavlaku u smesu od Ella sira i šećera, pa sve zajedno kratko umutite mikserom dok ne dobijete ujednačen i kremast fil.", image: "" },
+      { text: "Želatin pripremite i rastopite prema uputstvu sa kesice. Dodajte ga u fil uz neprestano mućenje mikserom kako bi se ravnomerno rasporedio.", image: "" },
+      { text: "Gotov fil sipajte preko Plazma korice i ravnomerno ga rasporedite po celoj površini. Stavite kalup u frižider dok pripremate preliv.", image: "" },
+      { text: "Za preliv stavite šumsko voće, vodu i kristal šećer u šerpicu. Zagrevajte dok smesa ne provri, a zatim kuvajte oko 5 minuta uz povremeno mešanje.", image: "" },
+      { text: "Sklonite šerpicu sa ringle i dok je voćna masa još vrela dodajte želatin. Mešajte dok se želatin potpuno ne rastopi i sjedini sa voćem.", image: "" },
+      { text: "Ostavite voćni preliv da se prohladi. Kada više nije vruć, ali je još uvek dovoljno tečan, pažljivo ga sipajte preko ohlađenog fila i ravnomerno rasporedite.", image: "" },
+      { text: "Čizkejk stavite u frižider i ostavite ga da se dobro ohladi i stegne, najbolje preko noći.", image: "" },
+      { text: "Ohlađeni čizkejk pažljivo izvadite iz kalupa, isecite na parčiće i poslužite dobro rashlađen.", image: "" }
+    ]
+  },
+  {
     id: "njoke-u-paradajz-sosu",
     title: "Njoke u paradajz sosu",
     tags: ["ručak", "brzo", "sos"],
