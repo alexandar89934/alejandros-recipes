@@ -310,6 +310,34 @@ const RECIPES = [
     ]
   },
   {
+    id: "kolac-sa-makom-i-plazma-keksom",
+    title: "Kolač sa makom i Plazma keksom za 15 minuta",
+    tags: ["dezert", "slatko"],
+    image: "images/kolac-sa-makom-i-plazma-keksom.jpg",
+    description: "Brz i sočan kolač sa makom i Plazma keksom koji se priprema za samo 15 minuta, bez brašna, maslaca i pečenja. Jednostavna smesa se skuva, oblikuje u plehu i po želji preliva čokoladnom glazurom. Najbolji je dobro ohlađen.",
+    ingredients: [
+      "mleko 500ml",
+      "pšenični griz 2 pune kašike",
+      "šećer 150g",
+      "mleveni mak 200g",
+      "mleveni Plazma keks 300g",
+      "čokolada po izboru 100g",
+      "ulje 1-3 kašike, u zavisnosti od vrste čokolade"
+    ],
+    steps: [
+      { text: "U manju šerpu sipajte mleko i dodajte šećer. Stavite na šporet i zagrevajte dok mleko ne provri.", image: "" },
+      { text: "Dok se mleko zagreva, pripremite manji kalup ili pleh, približno 28 x 18 cm, i obložite ga papirom za pečenje. Pripremite griz, mleveni mak i mleveni Plazma keks kako bi vam svi sastojci bili spremni za dodavanje.", image: "" },
+      { text: "Kada mleko provri, dodajte mleveni mak i pšenični griz. Mešajte na vatri 2-3 minuta, dok se smesa malo ne zgusne.", image: "" },
+      { text: "Sklonite šerpu sa vatre, dodajte mleveni Plazma keks i dobro promešajte dok se svi sastojci potpuno ne sjedine i ne dobijete kompaktnu smesu.", image: "" },
+      { text: "Celu smesu odmah prebacite u pripremljeni kalup ili pleh. Rasporedite je ravnomerno i poravnajte površinu.", image: "" },
+      { text: "Ako koristite drugačiji, čist mleveni mak, obratite pažnju na gustinu smese pre dodavanja Plazma keksa. U zavisnosti od vrste maka, možda će biti potrebno malo više mleka ili nešto manje griza kako bi se dobila odgovarajuća gustina.", image: "" },
+      { text: "Za čokoladnu glazuru otopite čokoladu na pari ili u mikrotalasnoj. Za belu čokoladu dodajte oko 1 kašiku ulja, za mlečnu oko 1,5 kašiku, a za crnu čokoladu sa više od 50% kakao delova oko 3 kašike ulja.", image: "" },
+      { text: "Otopljenu čokoladu prelijte preko kolača i ravnomerno razmažite po celoj površini. Blago protresite pleh kako bi se glazura dodatno ujednačila.", image: "" },
+      { text: "Ostavite kolač da se ohladi, a zatim ga stavite u frižider kako bi se potpuno stegao. Po želji, umesto čokoladne glazure možete nakon hlađenja staviti šlag.", image: "" },
+      { text: "Ohlađeni kolač isecite na kocke ili štanglice i poslužite.", image: "" }
+    ]
+  },
+  {
     id: "njoke-u-paradajz-sosu",
     title: "Njoke u paradajz sosu",
     tags: ["ručak", "brzo", "sos"],
