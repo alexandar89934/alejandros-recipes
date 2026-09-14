@@ -94,6 +94,50 @@ const RECIPES = [
     ]
   },
   {
+    id: "lazanje",
+    title: "Lazanje",
+    tags: ["ručak", "italijansko", "testenina"],
+    image: "images/lazanje.jpg",
+    description: "Sočne i bogate lazanje sa kombinacijom svinjskog i junećeg mesa, paradajz sosom, kremastim bešamelom, mocarelom i parmezanom. Ključ je da lazanje ostanu sočne i bogato prelivene sosom.",
+    ingredients: [
+      "maslinovo ulje malo",
+      "crni luk 1 veći",
+      "beli luk 4 čena",
+      "šargarepa 100g, narendana",
+      "svinjsko mleveno meso 250g",
+      "juneće mleveno meso 250g",
+      "sos od paradajza 1 tegla",
+      "Vegeta po ukusu",
+      "peršunov list malo, sitno iseckan",
+
+      "ulje 4 kašike",
+      "puter 3 kašike",
+      "brašno 2 kašike",
+      "mleko 3 šolje ili po potrebi",
+      "so po ukusu",
+      "mocarela ili kačkavalj 2 šolje, narendan",
+      "sveža mocarela 300g",
+      "parmezan 1/2 šolje, narendan",
+
+      "listovi za lazanje po potrebi"
+    ],
+    steps: [
+      { text: "U većoj šerpi zagrejte malo maslinovog ulja. Dodajte sitno seckan crni i beli luk i propržite dok ne omekšaju.", image: "" },
+      { text: "Dodajte svinjsko i juneće mleveno meso, kao i narendanu šargarepu. Sve dobro propržite uz povremeno mešanje dok meso ne bude potpuno termički obrađeno.", image: "" },
+      { text: "Dodajte sos od paradajza, začinite Vegetom i po želji dodajte sitno seckan peršun. Kuvajte na laganoj vatri oko 30 minuta kako bi se ukusi lepo sjedinili.", image: "" },
+      { text: "Za bešamel sos zagrejte ulje i puter na veoma niskoj temperaturi. Dodajte brašno i kratko ga propržite uz neprestano mešanje, pazeći da ne potamni.", image: "" },
+      { text: "Postepeno dodajte mleko uz stalno mešanje kako se ne bi stvorile grudvice. Začinite solju i kuvajte dok se sos ne zgusne.", image: "" },
+      { text: "Kada se bešamel zgusne, dodajte narendanu mocarelu ili kačkavalj i mešajte dok se sir ne otopi i potpuno sjedini sa sosom.", image: "" },
+      { text: "U pleh za pečenje prvo stavite sloj crvenog sosa. Preko njega poređajte listove za lazanje tako da se ne preklapaju.", image: "" },
+      { text: "Preko listova rasporedite sloj belog sosa, zatim ponovo listove za lazanje i sloj crvenog sosa.", image: "" },
+      { text: "Svežu mocarelu isecite na kolutove i rasporedite preko crvenog sosa. Preko mocarele stavite još jedan sloj listova za lazanje.", image: "" },
+      { text: "Premažite sve preostalim bešamel sosom. Odozgo dodajte malo crvenog sosa i viljuškom ga lagano prošarajte kroz beli sos kako površina ne bi izgorela tokom pečenja.", image: "" },
+      { text: "Pleh dobro prekrijte aluminijumskom folijom i pecite u prethodno zagrejanoj rerni na 180°C oko 1 sat.", image: "" },
+      { text: "Skinite aluminijumsku foliju, pospite lazanje narendanim parmezanom i vratite u rernu još oko 10 minuta, dok površina ne dobije lepu zlatnu boju.", image: "" },
+      { text: "Izvadite lazanje iz rerne i ostavite ih nekoliko minuta da odmore pre sečenja. Lazanje treba da budu sočne i kremaste, a ne previše čvrste. Buon appetito!", image: "" }
+    ]
+  },
+  {
     id: "gulas",
     title: "Gulaš",
     tags: ["ručak"],
@@ -335,6 +379,104 @@ const RECIPES = [
       { text: "Otopljenu čokoladu prelijte preko kolača i ravnomerno razmažite po celoj površini. Blago protresite pleh kako bi se glazura dodatno ujednačila.", image: "" },
       { text: "Ostavite kolač da se ohladi, a zatim ga stavite u frižider kako bi se potpuno stegao. Po želji, umesto čokoladne glazure možete nakon hlađenja staviti šlag.", image: "" },
       { text: "Ohlađeni kolač isecite na kocke ili štanglice i poslužite.", image: "" }
+    ]
+  },
+  {
+    id: "tiramisu",
+    title: "Tiramisu",
+    tags: ["dezert", "slatko", "italijansko"],
+    image: "images/tiramisu.jpg",
+    description: "Kremasti tiramisu sa mascarpone sirom, piškotama natopljenim jakom crnom kafom i blagom aromom ruma, završen slojem kakao praha.",
+    ingredients: [
+      "šećer u prahu 100g",
+      "mascarpone sir 500g",
+      "slatka pavlaka 250ml",
+      "piškote 48 komada",
+      "jaka crna kafa 250ml",
+      "rum malo",
+      "žumanca 4",
+      "kakao prah za posipanje"
+    ],
+    steps: [
+      { text: "Žumanca umutite sa šećerom u prahu, pa stavite smesu da se kuva na pari uz povremeno mešanje. Kuvajte oko 15 do 20 minuta, odnosno dok se smesa ne zgusne.", image: "" },
+      { text: "Skuvanu smesu od žumanaca i šećera ostavite da se potpuno ohladi. Zatim dodajte mascarpone sir i kratko umutite mikserom dok se sastojci ne sjedine.", image: "" },
+      { text: "U posebnoj posudi umutite slatku pavlaku, pa je dodajte smesi sa mascarpone sirom. Sve zajedno kratko umutite dok ne dobijete čvrst i kremast fil.", image: "" },
+      { text: "Skuvajte jaku crnu kafu, procedite je i ostavite da se malo ohladi. Dodajte malo ruma i promešajte.", image: "" },
+      { text: "Piškote kratko umakajte u kafu sa rumom, pazeći da ne upiju previše tečnosti i ne postanu gnjecave. Ređajte polovinu piškota na tacnu, u dva reda po 12 komada.", image: "" },
+      { text: "Preko prvog sloja piškota ravnomerno rasporedite polovinu pripremljenog krema.", image: "" },
+      { text: "Preko krema poređajte drugu polovinu piškota, takođe prethodno kratko umočenih u kafu sa rumom.", image: "" },
+      { text: "Preko drugog sloja piškota rasporedite ostatak krema i poravnajte površinu.", image: "" },
+      { text: "Tiramisu obilno pospite kakao prahom i stavite u frižider da se dobro ohladi i stegne pre služenja.", image: "" },
+      { text: "Ako pravite duplu meru, krem pripremajte i mutite odvojeno za svaku meru. Veća količina odjednom može rezultirati mekšim kremom koji se neće dovoljno čvrsto umutiti.", image: "" }
+    ]
+  },
+  {
+    id: "tres-leches-sa-karamelom",
+    title: "Tres Leches sa karamelom",
+    tags: ["dezert", "slatko", "kremasto"],
+    image: "images/tres-leches-karamel.jpg",
+    description: "Sočan i kremast kolač sa mekanim pandispanom natopljenim mešavinom mleka i kondenzovanog mleka, slatkom pavlakom i bogatim slojem karamel krema. Najbolji je dobro ohlađen.",
+    ingredients: [
+      "jaja 6",
+      "šećer 100g",
+      "brašno 200g",
+      "prašak za pecivo 1/2 kesice",
+      "vanilin šećer 1 kesica",
+      "slatka pavlaka 400ml",
+      "kondenzovano mleko 300ml",
+      "mleko 800ml",
+      "karamel krem 300g"
+    ],
+    steps: [
+      { text: "Umutite belanca, pa postepeno dodajte šećer i vanilin šećer. Kada dobijete čvrst sneg, dodajte jedno po jedno žumance i lagano umutite nakon svakog.", image: "" },
+      { text: "Brašno pomešajte sa praškom za pecivo. Postepeno ga dodajte u umućena jaja i lagano mešajte na najmanjoj brzini miksera, samo dok se sastojci ne sjedine.", image: "" },
+      { text: "Smesu sipajte u tepsiju dimenzija oko 20x30 cm obloženu papirom za pečenje. Pecite u prethodno zagrejanoj rerni na 180°C oko 20 do 25 minuta, odnosno dok pandispan ne bude pečen.", image: "" },
+      { text: "Pečeni pandispan ostavite da se malo ohladi, zatim ga izvadite iz tepsije i izbodite nožem ili viljuškom na više mesta kako bi bolje upio preliv.", image: "" },
+      { text: "U tepsiju sipajte slatku pavlaku, a zatim pandispan okrenite naopako i vratite ga u tepsiju tako da strana koja je tokom pečenja bila na vrhu sada bude okrenuta nadole. Ostavite oko 10 minuta.", image: "" },
+      { text: "Pomešajte mleko i kondenzovano mleko, pa ravnomerno prelijte pandispan. Ostavite kolač da odstoji kako bi pandispan dobro upio mlečni preliv.", image: "" },
+      { text: "Preko natopljenog pandispana pažljivo rasporedite karamel krem i ravnomerno ga zagladite.", image: "" },
+      { text: "Kolač dobro ohladite u frižideru pre služenja. Najbolje je da odstoji nekoliko sati kako bi se ukusi sjedinili, a pandispan potpuno upio preliv.", image: "" }
+    ]
+  },
+  {
+    id: "pavlova-sa-vocem",
+    title: "Pavlova sa vanila kremom i voćem",
+    tags: ["dezert", "slatko", "voćno"],
+    image: "images/pavlova.jpg",
+    description: "Lagani i elegantni desert sa hrskavom korom od beze mase, kremastim vanila filom, slatkom pavlakom i svežim voćem. Kora je spolja hrskava, a iznutra mekana i vazdušasta.",
+    ingredients: [
+      "belanca 6",
+      "so prstohvat",
+      "šećer 250g",
+      "sirće 1 kašika",
+
+      "mleko 500ml",
+      "žumanca 4",
+      "šećer 4 kašike ili po ukusu",
+      "gustin 50g",
+      "maslac 100g",
+      "ekstrakt vanile 1 kašičica",
+
+      "mlečna slatka pavlaka 250ml",
+      "kremfiks 1 kesica (nije obavezno)",
+      "vanilin šećer 1 kesica (10g)",
+
+      "voće po želji",
+      "sveža menta za dekoraciju"
+    ],
+    steps: [
+      { text: "Rernu zagrejte na 150°C. Belanca umutite sa prstohvatom soli dok ne postanu čvrsta. Postepeno dodajte šećer i mutite dok ne dobijete gustu, sjajnu i potpuno glatku beze masu. Pred kraj dodajte sirće i mutite još kratko.", image: "" },
+      { text: "Na papiru za pečenje nacrtajte krug prečnika oko 22 cm, okrenite papir tako da nacrtana strana bude okrenuta nadole i stavite ga na pleh. Rasporedite beze masu unutar kruga i u sredini napravite udubljenje za fil.", image: "" },
+      { text: "Stavite koru u rernu i odmah smanjite temperaturu na 100°C. Sušite oko 1 sat i 30 minuta, dok kora ne dobije blago zlatastu boju. Ako je rerna slabija, koru možete sve vreme sušiti na 150°C.", image: "" },
+      { text: "Kada je kora gotova, isključite rernu i ostavite je unutra još oko 15 minuta kako bi postala hrskavija. Zatim je izvadite i potpuno ohladite.", image: "" },
+      { text: "Za prvi fil umutite žumanca sa šećerom, dodajte gustin i oko 2 dcl hladnog mleka, pa dobro promešajte da nema grudvica. Preostalih 3 dcl mleka stavite da provri.", image: "" },
+      { text: "Kada mleko provri, smanjite temperaturu i uz neprestano mešanje dodajte smesu sa žumancima. Kuvajte dok ponovo ne provri, a zatim još 1 do 2 minuta uz mešanje.", image: "" },
+      { text: "Skinite fil sa ringle i odmah umešajte maslac i ekstrakt vanile. Prekrijte površinu providnom folijom i ostavite da se potpuno ohladi. Ohlađeni fil kratko umutite mikserom.", image: "" },
+      { text: "Slatku pavlaku dobro ohladite pre mućenja. Po želji je možete staviti u zamrzivač oko 10 minuta, zajedno sa posudom i žicama miksera, ali pazite da se pavlaka ne zaledi.", image: "" },
+      { text: "U hladnoj, dubokoj posudi kratko umutite slatku pavlaku na najmanjoj, a zatim na srednjoj brzini. Dodajte kremfiks i vanilin šećer i mutite još kratko na srednjoj brzini, samo dok se pavlaka ne zgusne. Pazite da je ne premutite.", image: "" },
+      { text: "Na potpuno ohlađenu beze koru prvo rasporedite vanila fil, zatim preko njega nanesite umućenu slatku pavlaku.", image: "" },
+      { text: "Preko pavlake rasporedite voće po želji i ukrasite listićima sveže mente.", image: "" },
+      { text: "Pavlovu možete odmah poslužiti ili je pre služenja kratko ohladiti u frižideru.", image: "" }
     ]
   },
   {
