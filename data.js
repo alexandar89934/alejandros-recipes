@@ -73,7 +73,7 @@ const RECIPES = [
     id: "sos-pavlaka-parmezan",
     title: "Sos od pavlake i parmezana",
     tags: ["ručak", "večera", "sos"],
-    image: "",
+    image: "images/sos-pavlaka-parmezan.jpg",
     description: "",
     ingredients: [
       "200 ml pavlake za kuvanje",
@@ -141,7 +141,7 @@ const RECIPES = [
     id: "gulas",
     title: "Gulaš",
     tags: ["ručak"],
-    image: "",
+    image: "images/gulas.jpg",
     description: "",
     ingredients: [
       "1 kg svinjskog ili junećeg mesa",
@@ -170,7 +170,7 @@ const RECIPES = [
     id: "zapeceni-spanac-mleveno-meso",
     title: "Zapečeni spanać sa mlevenim mesom",
     tags: ["ručak", "večera"],
-    image: "",
+    image: "images/zapeceni-spanac-mleveno-meso.jpg",
     description: "",
     ingredients: [
       "500 g mlevene govedine ili svinjetine",
