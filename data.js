@@ -382,6 +382,54 @@ const RECIPES = [
     ]
   },
   {
+    id: "rezanci-sa-makom",
+    title: "Rezanci sa makom",
+    tags: ["dezert", "slatko", "brzo"],
+    image: "images/rezanci-sa-makom.jpg",
+    description: "Jednostavan i brz tradicionalni desert od širokih rezanaca, maka, maslaca i vanilin šećera.",
+    ingredients: [
+      "široki rezanci 500g",
+      "mleveni mak 150g",
+      "mleko 100ml",
+      "maslac 100g",
+      "šećer 150g",
+      "vanilin šećer 1 kesica"
+    ],
+    steps: [
+      { text: "Rezance skuvajte u vreloj vodi prema uputstvu na pakovanju, procedite i prelijte hladnom vodom.", image: "" },
+      { text: "Maslac stavite u posudu i rastopite. Dodajte oceđene rezance, kratko ih propržite na maslacu, pa sklonite sa vatre.", image: "" },
+      { text: "U mleko dodajte šećer, vanilin šećer i mleveni mak. Stavite na šporet i kuvajte uz neprestano mešanje.", image: "" },
+      { text: "Kada mleko sa makom provri, sklonite sa vatre i dodajte pripremljene rezance.", image: "" },
+      { text: "Sve dobro promešajte kako bi se rezanci ravnomerno obložili smesom od maka i odmah poslužite.", image: "" }
+    ]
+  },
+  {
+    id: "rolat",
+    title: "Rolat",
+    tags: ["dezert", "slatko"],
+    image: "images/rolat.jpg",
+    description: "Lagani i vazdušasti biskvit idealan za pripremu rolata. Nakon pečenja se pažljivo uvija u kuhinjsku krpu kako bi zadržao oblik i bio spreman za filovanje.",
+    ingredients: [
+      "jaja 6",
+      "belance 1",
+      "šećer 6 velikih kašika",
+      "brašno 6 velikih kašika",
+      "prašak za pecivo 1 kašičica"
+    ],
+    steps: [
+      { text: "Odvojite belanca od žumanaca dok su jaja još hladna i ostavite ih oko 20 minuta na sobnoj temperaturi da se temperiraju.", image: "" },
+      { text: "Žumanca umutite sa 3 kašike šećera dok ne dobijete gustu smesu svetložute boje.", image: "" },
+      { text: "Belanca umutite dok dobro ne zapene, zatim postepeno dodajte preostali šećer, kašiku po kašiku. Povećajte brzinu miksera i mutite dok ne dobijete čvrstu i stabilnu penu.", image: "" },
+      { text: "U umućena žumanca dodajte 3 do 4 velike kašike umućenih belanaca i lagano promešajte. Zatim celu smesu od žumanaca prebacite u preostala belanca i pažljivo mešajte varjačom odozdo prema gore dok se smese skoro potpuno ne sjedine.", image: "" },
+      { text: "Pomešajte brašno i prašak za pecivo, pa ih prosejte. Postepeno ih dodajte smesi od jaja i lagano mešajte varjačom odozdo prema gore, samo dok se brašno potpuno ne sjedini sa smesom.", image: "" },
+      { text: "Smesu ravnomerno rasporedite u plitku tepsiju dimenzija oko 37 x 25 cm obloženu papirom za pečenje. Poravnajte površinu kako bi biskvit svuda bio iste debljine.", image: "" },
+      { text: "Pecite u prethodno zagrejanoj rerni na 180°C oko 15 do 20 minuta, odnosno dok biskvit ne dobije blagu zlatnu boju i bude pečen.", image: "" },
+      { text: "Pečeni biskvit odvojite nožem od ivica tepsije, izvadite ga i pažljivo skinite papir za pečenje.", image: "" },
+      { text: "Dok je još topao, uvijte biskvit zajedno sa čistom kuhinjskom krpom. Nakon oko 5 minuta kratko ga odmotajte, pa ponovo uvijte u krpu. Po želji ponovite postupak još jednom.", image: "" },
+      { text: "Ostavite rolat da se potpuno ohladi. Ohlađeni biskvit je spreman za filovanje i dekoraciju po želji.", image: "" }
+    ]
+  },
+  {
     id: "tiramisu",
     title: "Tiramisu",
     tags: ["dezert", "slatko", "italijansko"],
