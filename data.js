@@ -19,28 +19,32 @@
 // ---------------------------------------------------------------------------
 
 const RECIPES = [
-  {
-    id: "spaghetti-carbonara",
-    title: "Spaghetti Carbonara",
-    tags: ["ručak", "večera"],
-    image: "images/carbonara.jpg",
-    description: "",
+    {
+    id: "domaca-proja-sa-sirom",
+    title: "Domaća proja sa sirom",
+    tags: ["doručak", "slano", "brzo", "tradicionalno"],
+    image: "images/proja-sa-sirom.jpg",
+    description: "Mekana i ukusna domaća proja sa kukuruznim brašnom i sirom, lepo zapečena spolja i mekana iznutra. Brzo se priprema i odlična je uz jogurt ili kiselo mleko.",
     ingredients: [
+      "kukuruzno (projino) brašno 2 čaše",
+      "belo (pšenično) brašno 1 čaša",
       "jaja 3",
-      "testenina 250g",
-      "parmezan 40g",
-      "slanina 150g",
-      "pavlaka za kuvanje (može i bez)",
-      "šareni biber",
-      "peršun",
-      "maslinovo ulje"
+      "jogurt 200ml",
+      "kisela voda 200ml",
+      "ulje 1/2 čaše",
+      "beli sir 200–250g, usitnjen",
+      "prašak za pecivo 1 kesica",
+      "so po ukusu"
     ],
     steps: [
-      { text: "U kipuću, prethodno posoljenu vodu, sa malo maslinovog ulja, staviti špagete da se kuvaju.", image: "" },
-      { text: "U isto vreme, na dve kašike maslinovog ulja propržiti sitno seckanu slaninu dok ne porumeni i ne postane blago hrskavo (oko 5 minuta). Pred sam kraj dodati propasiran čen belog luka i promešati.", image: "" },
-      { text: "U posebnoj posudi dobro izmešati žumanca sa pavlakom, malo vode iz špageta, parmezanom, peršunom, mlevenim biberom i malo soli.", image: "" },
-      { text: "Kad su špagete gotove, procediti ih i sipati u tiganj sa slaninom. Preliti smesom od jaja i dobro izmešati dok se ne sjedine, zatim skloniti sa vatre.", image: "" },
-      { text: "Gotove špagete pospite mlevenim biberom i malo peršuna.", image: "" }
+      { text: "Rernu prethodno zagrejte na 200°C.", image: "" },
+      { text: "U većoj posudi pomešajte kukuruzno brašno, belo brašno i prašak za pecivo.", image: "" },
+      { text: "U drugoj posudi kratko umutite jaja, pa dodajte jogurt, kiselu vodu, ulje i malo soli. Količinu soli prilagodite slanoći sira.", image: "" },
+      { text: "Sipajte tečne sastojke u posudu sa suvim sastojcima i sve dobro sjedinite žicom dok ne dobijete ujednačenu smesu bez grudvica.", image: "" },
+      { text: "Na kraju lagano umešajte usitnjeni beli sir kako bi se ravnomerno rasporedio kroz smesu.", image: "" },
+      { text: "Smesu izlijte u podmazanu tepsiju ili rasporedite u kalup za mafine. Pecite oko 30 minuta, odnosno dok proja ne dobije lepu zlatno-smeđu koricu.", image: "" },
+      { text: "Gotovu proju poprskajte sa malo vode i pokrijte čistom krpom. Ostavite je nekoliko minuta da odmori i omekša.", image: "" },
+      { text: "Proju isecite i poslužite toplu uz jogurt ili kiselo mleko.", image: "" }
     ]
   },
   {
@@ -70,27 +74,27 @@ const RECIPES = [
     ]
   },
   {
-    id: "sos-pavlaka-parmezan",
-    title: "Sos od pavlake i parmezana",
-    tags: ["ručak", "večera", "sos"],
-    image: "images/sos-pavlaka-parmezan.jpg",
+    id: "spaghetti-carbonara",
+    title: "Spaghetti Carbonara",
+    tags: ["ručak", "večera"],
+    image: "images/carbonara.jpg",
     description: "",
     ingredients: [
-      "200 ml pavlake za kuvanje",
-      "50–70 g rendanog parmezana (po ukusu)",
-      "1 kašika putera ili masti (za bogatiju teksturu)",
-      "so i biber po ukusu",
-      "1 čen belog luka, sitno iseckan (opciono)",
-      "malo muškatnog oraščića ili italijanskih začina (opciono)"
+      "jaja 3",
+      "testenina 250g",
+      "parmezan 40g",
+      "slanina 150g",
+      "pavlaka za kuvanje (može i bez)",
+      "šareni biber",
+      "peršun",
+      "maslinovo ulje"
     ],
     steps: [
-      { text: "U tiganju na laganoj vatri otopiti puter.", image: "" },
-      { text: "Ako se koristi beli luk, prvo ga propržiti 20–30 sekundi da zamiriše (ne sme da potamni).", image: "" },
-      { text: "Dodati pavlaku za kuvanje i mešati da se sjedini sa puterom.", image: "" },
-      { text: "Dodati rendani parmezan, polako uz mešanje, dok se ne istopi.", image: "" },
-      { text: "Krčkati 3–5 minuta na srednjoj vatri, dok se sos ne zgusne.", image: "" },
-      { text: "Dodati so i biber po ukusu (parmezan je već slan, pažljivo sa solju).", image: "" },
-      { text: "Opciono, ubaciti malo dodatnih začina za jači ukus.", image: "" }
+      { text: "U kipuću, prethodno posoljenu vodu, sa malo maslinovog ulja, staviti špagete da se kuvaju.", image: "" },
+      { text: "U isto vreme, na dve kašike maslinovog ulja propržiti sitno seckanu slaninu dok ne porumeni i ne postane blago hrskavo (oko 5 minuta). Pred sam kraj dodati propasiran čen belog luka i promešati.", image: "" },
+      { text: "U posebnoj posudi dobro izmešati žumanca sa pavlakom, malo vode iz špageta, parmezanom, peršunom, mlevenim biberom i malo soli.", image: "" },
+      { text: "Kad su špagete gotove, procediti ih i sipati u tiganj sa slaninom. Preliti smesom od jaja i dobro izmešati dok se ne sjedine, zatim skloniti sa vatre.", image: "" },
+      { text: "Gotove špagete pospite mlevenim biberom i malo peršuna.", image: "" }
     ]
   },
   {
@@ -138,6 +142,55 @@ const RECIPES = [
     ]
   },
   {
+    id: "njoke-u-paradajz-sosu",
+    title: "Njoke u paradajz sosu",
+    tags: ["ručak", "brzo", "sos"],
+    image: "images/njoke-paradajz-sos.jpg",
+    description: "Brz i jednostavan obrok sa njokama u ukusnom paradajz sosu, začinjenim origanom i svežim bosiljkom.",
+    ingredients: [
+      "bosiljak 5g",
+      "brašno 10g",
+      "njoke 400g",
+      "crni luk 100g",
+      "paradajz sos 150g",
+      "origano 5g",
+      "šećer 10g",
+      "so po ukusu",
+      "biber po ukusu",
+      "maslinovo ulje za dinstanje"
+    ],
+    steps: [
+      { text: "Na nauljenom tiganju izdinstajte sitno iseckan crni luk dok ne omekša i postane staklast.", image: "" },
+      { text: "Dodajte iseckan paradajz, posolite i pobiberite. Kuvajte uz povremeno mešanje, naročito kada paradajz počne da ključa.", image: "" },
+      { text: "Dodajte kašičicu šećera i kašiku brašna, pa dobro promešajte kako bi se sos zgusnuo i dobio željenu gustinu.", image: "" },
+      { text: "Dok se sos kuva, u posebnoj šerpi stavite vodu da proključa. Kada voda provri, ubacite njoke i kuvajte ih nekoliko minuta, odnosno prema uputstvu sa pakovanja.", image: "" },
+      { text: "Kuvane njoke ocedite i dodajte ih u pripremljeni paradajz sos. Pažljivo promešajte kako bi se njoke ravnomerno obložile sosom.", image: "" },
+      { text: "Začinite origanom i svežim bosiljkom, kratko promešajte i poslužite dok je toplo.", image: "" }
+    ]
+  },{
+    id: "zapeceni-spanac-mleveno-meso",
+    title: "Zapečeni spanać sa mlevenim mesom",
+    tags: ["ručak", "večera"],
+    image: "images/zapeceni-spanac-mleveno-meso.jpg",
+    description: "",
+    ingredients: [
+      "500 g mlevene govedine ili svinjetine",
+      "500 g svežeg spanaća (ili 250 g smrznutog, oceđenog)",
+      "200 ml pavlake za kuvanje",
+      "150 g kačkavalja (može i trapist ili mocarela)",
+      "1 glavica crnog luka",
+      "2 čena belog luka (ili suvi beli luk začin)",
+      "2 kašike maslinovog ulja (ili putera)",
+      "so, biber, muškatni oraščić po ukusu"
+    ],
+    steps: [
+      { text: "Na ulju propržiti sitno seckani crni luk dok ne omekša. Dodati mlevenu govedinu, začiniti solju i biberom i pržiti dok ne porumeni.", image: "" },
+      { text: "Spanać oprati i kratko obariti 2–3 minuta pa ocediti (ili odmrznuti i ocediti ako je smrznut). Na malo ulja propržiti beli luk, dodati spanać, posoliti, pobiberiti i po želji dodati malo muškatnog oraščića.", image: "" },
+      { text: "U vatrostalnu posudu staviti sloj mlevenog mesa, preko njega spanać, preliti pavlakom i posuti izrendanim sirom.", image: "" },
+      { text: "Peći u rerni zagrejanoj na 200°C, 15–20 minuta, dok se sir ne zarumeni.", image: "" }
+    ]
+  },
+  {
     id: "gulas",
     title: "Gulaš",
     tags: ["ručak"],
@@ -164,29 +217,6 @@ const RECIPES = [
       { text: "Posle oko pola sata dodati začine: lorber, biber u zrnu, kim, alevu i ljutu papriku, kao i svežu papriku, papričicu i svež paradajz isečen na četvrtine. Doliti još malo vrele vode, poklopiti i ostaviti još oko pola sata, povremeno mešajući.", image: "" },
       { text: "Kad se proverom utvrdi da je meso kuvano, dodati kuvani paradajz i doterati ukus začinima. Kuvanu papriku i paradajz izvaditi, prohladiti, kašikom odvojiti ljuske i vratiti povrće u šerpu.", image: "" },
       { text: "Nakon ukupnog kuvanja od oko 2 sata, gulaš bi trebalo da bude gotov. Ako je čorba retka, razmutiti kašiku brašna u malo vode, dodati u šerpu i kuvati još 5–10 minuta.", image: "" }
-    ]
-  },
-  {
-    id: "zapeceni-spanac-mleveno-meso",
-    title: "Zapečeni spanać sa mlevenim mesom",
-    tags: ["ručak", "večera"],
-    image: "images/zapeceni-spanac-mleveno-meso.jpg",
-    description: "",
-    ingredients: [
-      "500 g mlevene govedine ili svinjetine",
-      "500 g svežeg spanaća (ili 250 g smrznutog, oceđenog)",
-      "200 ml pavlake za kuvanje",
-      "150 g kačkavalja (može i trapist ili mocarela)",
-      "1 glavica crnog luka",
-      "2 čena belog luka (ili suvi beli luk začin)",
-      "2 kašike maslinovog ulja (ili putera)",
-      "so, biber, muškatni oraščić po ukusu"
-    ],
-    steps: [
-      { text: "Na ulju propržiti sitno seckani crni luk dok ne omekša. Dodati mlevenu govedinu, začiniti solju i biberom i pržiti dok ne porumeni.", image: "" },
-      { text: "Spanać oprati i kratko obariti 2–3 minuta pa ocediti (ili odmrznuti i ocediti ako je smrznut). Na malo ulja propržiti beli luk, dodati spanać, posoliti, pobiberiti i po želji dodati malo muškatnog oraščića.", image: "" },
-      { text: "U vatrostalnu posudu staviti sloj mlevenog mesa, preko njega spanać, preliti pavlakom i posuti izrendanim sirom.", image: "" },
-      { text: "Peći u rerni zagrejanoj na 200°C, 15–20 minuta, dok se sir ne zarumeni.", image: "" }
     ]
   },
   {
@@ -528,30 +558,27 @@ const RECIPES = [
     ]
   },
   {
-    id: "njoke-u-paradajz-sosu",
-    title: "Njoke u paradajz sosu",
-    tags: ["ručak", "brzo", "sos"],
-    image: "images/njoke-paradajz-sos.jpg",
-    description: "Brz i jednostavan obrok sa njokama u ukusnom paradajz sosu, začinjenim origanom i svežim bosiljkom.",
+    id: "sos-pavlaka-parmezan",
+    title: "Sos od pavlake i parmezana",
+    tags: ["ručak", "večera", "sos"],
+    image: "images/sos-pavlaka-parmezan.jpg",
+    description: "",
     ingredients: [
-      "bosiljak 5g",
-      "brašno 10g",
-      "njoke 400g",
-      "crni luk 100g",
-      "paradajz sos 150g",
-      "origano 5g",
-      "šećer 10g",
-      "so po ukusu",
-      "biber po ukusu",
-      "maslinovo ulje za dinstanje"
+      "200 ml pavlake za kuvanje",
+      "50–70 g rendanog parmezana (po ukusu)",
+      "1 kašika putera ili masti (za bogatiju teksturu)",
+      "so i biber po ukusu",
+      "1 čen belog luka, sitno iseckan (opciono)",
+      "malo muškatnog oraščića ili italijanskih začina (opciono)"
     ],
     steps: [
-      { text: "Na nauljenom tiganju izdinstajte sitno iseckan crni luk dok ne omekša i postane staklast.", image: "" },
-      { text: "Dodajte iseckan paradajz, posolite i pobiberite. Kuvajte uz povremeno mešanje, naročito kada paradajz počne da ključa.", image: "" },
-      { text: "Dodajte kašičicu šećera i kašiku brašna, pa dobro promešajte kako bi se sos zgusnuo i dobio željenu gustinu.", image: "" },
-      { text: "Dok se sos kuva, u posebnoj šerpi stavite vodu da proključa. Kada voda provri, ubacite njoke i kuvajte ih nekoliko minuta, odnosno prema uputstvu sa pakovanja.", image: "" },
-      { text: "Kuvane njoke ocedite i dodajte ih u pripremljeni paradajz sos. Pažljivo promešajte kako bi se njoke ravnomerno obložile sosom.", image: "" },
-      { text: "Začinite origanom i svežim bosiljkom, kratko promešajte i poslužite dok je toplo.", image: "" }
+      { text: "U tiganju na laganoj vatri otopiti puter.", image: "" },
+      { text: "Ako se koristi beli luk, prvo ga propržiti 20–30 sekundi da zamiriše (ne sme da potamni).", image: "" },
+      { text: "Dodati pavlaku za kuvanje i mešati da se sjedini sa puterom.", image: "" },
+      { text: "Dodati rendani parmezan, polako uz mešanje, dok se ne istopi.", image: "" },
+      { text: "Krčkati 3–5 minuta na srednjoj vatri, dok se sos ne zgusne.", image: "" },
+      { text: "Dodati so i biber po ukusu (parmezan je već slan, pažljivo sa solju).", image: "" },
+      { text: "Opciono, ubaciti malo dodatnih začina za jači ukus.", image: "" }
     ]
   },
   {
