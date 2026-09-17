@@ -142,6 +142,36 @@ const RECIPES = [
     ]
   },
   {
+    id: "rizoto-sa-piletinom-u-belom-vinu",
+    title: "Kremasti rižoto sa piletinom u belom vinu",
+    tags: ["ručak", "piletina", "italijansko", "kremasto"],
+    image: "images/rizoto-sa-piletinom.jpg",
+    description: "Kremasti i bogati rižoto sa piletinom, belim vinom i pavlakom za kuvanje. Jednostavan recept koji daje sočan i ukusan obrok sa teksturom poput rižota iz restorana.",
+    ingredients: [
+      "pirinač 200g",
+      "pileći file 200g",
+      "crni luk 1 glavica",
+      "voda 400ml",
+      "belo vino 100ml",
+      "pileća kocka za supu 1",
+      "pavlaka za kuvanje 250ml",
+      "maslac 50g",
+      "so po ukusu",
+      "biber po ukusu"
+    ],
+    steps: [
+      { text: "U šerpi zagrejte 400ml vode i dodajte pileću kocku za supu. Kuvajte dok se kocka potpuno ne rastopi i pripremite bujon koji ćete kasnije postepeno dodavati rižotu.", image: "" },
+      { text: "Sitno iseckajte crni luk. U većoj šerpi istopite maslac i dinstajte luk na umerenoj temperaturi dok ne postane staklast.", image: "" },
+      { text: "Pileći file isecite na manje kockice, dodajte luku i dinstajte oko 10 minuta uz povremeno mešanje, dok piletina ne bude termički obrađena.", image: "" },
+      { text: "Dodajte pirinač i kratko ga propržite zajedno sa piletinom i lukom kako bi se zrna obložila masnoćom i dobila blago staklast izgled.", image: "" },
+      { text: "Začinite solju i biberom, pa dodajte pavlaku za kuvanje i belo vino. Dobro promešajte i nastavite da kuvate dok deo vina ne ispari, a pavlaka počne da se zgušnjava.", image: "" },
+      { text: "Počnite postepeno da dodajete pripremljeni bujon. Dodajte po malo, uz neprestano ili često mešanje, i sačekajte da pirinač upije veći deo tečnosti pre nego što dodate sledeću količinu.", image: "" },
+      { text: "Nastavite sa dodavanjem bujona i mešanjem dok pirinač ne omekša i ne dobije kremastu konzistenciju. Ako je potrebno, dodajte još malo vode ili bujona.", image: "" },
+      { text: "Kada je pirinač kuvan, a rižoto kremast i sočan, sklonite ga sa šporeta i ostavite minut-dva da odmori.", image: "" },
+      { text: "Rižoto poslužite odmah dok je topao i kremast.", image: "" }
+    ]
+  },
+  {
     id: "njoke-u-paradajz-sosu",
     title: "Njoke u paradajz sosu",
     tags: ["ručak", "brzo", "sos"],
