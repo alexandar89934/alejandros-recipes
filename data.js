@@ -74,6 +74,39 @@ const RECIPES = [
     ]
   },
   {
+    id: "lazanje-sa-sirom-i-sunkom",
+    title: "Lazanje sa sirom i šunkom",
+    tags: ["doručak", "ručak", "sir", "šunka", "testenina"],
+    image: "images/lazanje-sa-sirom-i-sunkom.jpg",
+    description: "Sočne i kremaste lazanje koje spajaju ukuse tradicionalne gibanice i klasičnih lazanja. Slojevi testenine, bogatog fila od sira, jaja i pavlake i tanke šunke završavaju se zapečenom mocarelom i hrskavom koricom.",
+    ingredients: [
+      "listovi za lazanje 250g",
+      "beli sir 250g",
+      "jaja 2",
+      "kisela pavlaka 100g",
+      "jogurt 100ml",
+      "kisela voda 50ml",
+      "ulje 40ml",
+      "prašak za pecivo 1/2 kesice",
+      "šunka 150-200g, tanko sečena",
+      "mocarela ili kačkavalj 100g",
+      "so po ukusu",
+      "puter za podmazivanje"
+    ],
+    steps: [
+      { text: "U većoj posudi umutite jaja, pa dodajte izgnječeni beli sir, kiselu pavlaku, jogurt, kiselu vodu i ulje. Dodajte prašak za pecivo i malo soli, vodeći računa o slanoći sira i šunke. Sve dobro sjedinite.", image: "" },
+      { text: "Listove za lazanje pripremite prema uputstvu sa pakovanja. Ako nisu namenjeni za pečenje bez prethodnog kuvanja, kratko ih obarite u ključaloj vodi i ocedite.", image: "" },
+      { text: "Manju tepsiju premažite tankim slojem putera ili ulja. Na dno stavite prvi sloj listova za lazanje tako da prekriju celu površinu.", image: "" },
+      { text: "Preko listova ravnomerno rasporedite sloj fila od sira, a zatim preko fila poređajte tanke listove šunke tako da pokriju većinu površine.", image: "" },
+      { text: "Preko šunke stavite novi sloj listova za lazanje, zatim ponovo rasporedite fil od sira i preko njega poređajte šunku. Ponavljajte postupak dok ne potrošite sastojke, ali poslednji sloj završite samo filom, bez šunke.", image: "" },
+      { text: "Preko poslednjeg sloja fila ravnomerno rasporedite narendanu mocarelu ili kačkavalj. Po želji dodajte nekoliko malih komadića putera kako bi korica bila još lepša.", image: "" },
+      { text: "Tepsiju prekrijte aluminijumskom folijom i pecite u prethodno zagrejanoj rerni na 180°C oko 30 minuta.", image: "" },
+      { text: "Skinite foliju i vratite lazanje u rernu još 10 do 15 minuta, dok sir na površini ne dobije lepu zlatno-smeđu boju i hrskavu koricu.", image: "" },
+      { text: "Izvadite lazanje iz rerne i ostavite ih 10 do 15 minuta da odmore kako bi se slojevi stabilizovali i kako bi se lakše sekle.", image: "" },
+      { text: "Isecite na parčad i poslužite toplo uz jogurt ili kiselo mleko.", image: "" }
+    ]
+  },
+  {
     id: "spaghetti-carbonara",
     title: "Spaghetti Carbonara",
     tags: ["ručak", "večera"],
@@ -557,7 +590,6 @@ const RECIPES = [
       "so prstohvat",
       "šećer 250g",
       "sirće 1 kašika",
-
       "mleko 500ml",
       "žumanca 4",
       "šećer 4 kašike ili po ukusu",
