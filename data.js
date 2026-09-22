@@ -231,26 +231,39 @@ const RECIPES = [
       { text: "Začinite origanom i svežim bosiljkom, kratko promešajte i poslužite dok je toplo.", image: "" }
     ]
   },{
-    id: "zapeceni-spanac-mleveno-meso",
+    id: "zapeceni-spanac-sa-mlevenim-mesom",
     title: "Zapečeni spanać sa mlevenim mesom",
-    tags: ["ručak", "večera"],
+    tags: ["ručak", "večera", "spanać", "mleveno meso"],
     image: "images/zapeceni-spanac-mleveno-meso.jpg",
-    description: "",
+    description: "Kremasti zapečeni spanać sa začinjenim mlevenim mesom, belim sirom i jajima, prekriven slojem topljenog kačkavalja. Sočno jelo koje se jednostavno priprema i odlično služi kao samostalan ručak.",
     ingredients: [
-      "500 g mlevene govedine ili svinjetine",
-      "500 g svežeg spanaća (ili 250 g smrznutog, oceđenog)",
-      "200 ml pavlake za kuvanje",
-      "150 g kačkavalja (može i trapist ili mocarela)",
-      "1 glavica crnog luka",
-      "2 čena belog luka (ili suvi beli luk začin)",
-      "2 kašike maslinovog ulja (ili putera)",
-      "so, biber, muškatni oraščić po ukusu"
+      "mleveno meso 500g",
+      "svež spanać 500g ili smrznuti spanać 300g, dobro oceđen",
+      "crni luk 1 glavica",
+      "beli luk 2 čena",
+      "beli sir 150g",
+      "jaja 3",
+      "kisela pavlaka 200g",
+      "pavlaka za kuvanje 100ml",
+      "mocarela ili kačkavalj 150g, narendan",
+      "maslinovo ulje 2 kašike",
+      "so po ukusu",
+      "biber po ukusu",
+      "muškatni oraščić 1/2 kašičice"
     ],
     steps: [
-      { text: "Na ulju propržiti sitno seckani crni luk dok ne omekša. Dodati mlevenu govedinu, začiniti solju i biberom i pržiti dok ne porumeni.", image: "" },
-      { text: "Spanać oprati i kratko obariti 2–3 minuta pa ocediti (ili odmrznuti i ocediti ako je smrznut). Na malo ulja propržiti beli luk, dodati spanać, posoliti, pobiberiti i po želji dodati malo muškatnog oraščića.", image: "" },
-      { text: "U vatrostalnu posudu staviti sloj mlevenog mesa, preko njega spanać, preliti pavlakom i posuti izrendanim sirom.", image: "" },
-      { text: "Peći u rerni zagrejanoj na 200°C, 15–20 minuta, dok se sir ne zarumeni.", image: "" }
+      { text: "Rernu prethodno zagrejte na 200°C. Ako koristite svež spanać, kratko ga obarite 2–3 minuta, zatim ga dobro ocedite i sitno iseckajte. Ako koristite smrznuti, potpuno ga odmrznite i veoma dobro iscedite višak vode.", image: "" },
+      { text: "U većem tiganju zagrejte maslinovo ulje i propržite sitno seckan crni luk dok ne omekša. Dodajte sitno seckan beli luk i kratko propržite.", image: "" },
+      { text: "Dodajte mleveno meso, začinite solju i biberom i pržite uz mešanje dok meso ne bude potpuno termički obrađeno i blago ne porumeni.", image: "" },
+      { text: "U drugi tiganj stavite oceđeni spanać i kratko ga propržite sa prstohvatom soli, bibera i muškatnog oraščića. Kuvajte samo nekoliko minuta, dok višak tečnosti ne ispari.", image: "" },
+      { text: "U većoj posudi umutite jaja, kiselu pavlaku i pavlaku za kuvanje. Dodajte izgnječeni beli sir i malo bibera, pa sve dobro sjedinite.", image: "" },
+      { text: "U smesu sa jajima dodajte pripremljeni spanać i promešajte. Zatim dodajte oko dve trećine pripremljenog mlevenog mesa i lagano sjedinite sve sastojke.", image: "" },
+      { text: "Vatrostalnu posudu premažite sa malo ulja ili putera. Sipajte pripremljenu smesu i ravnomerno je rasporedite. Preko rasporedite preostalo mleveno meso.", image: "" },
+      { text: "Pospite celu površinu narendanom mocarelom ili kačkavaljem.", image: "" },
+      { text: "Prekrijte posudu aluminijumskom folijom i pecite oko 25 minuta na 200°C.", image: "" },
+      { text: "Skinite foliju i vratite posudu u rernu još 10–15 minuta, dok se sir potpuno ne istopi i ne dobije lepu zlatno-smeđu koricu.", image: "" },
+      { text: "Izvadite jelo iz rerne i ostavite ga 10 minuta da odmori kako bi se fil malo stegao i kako bi se lakše seklo.", image: "" },
+      { text: "Poslužite toplo, samostalno ili uz jogurt, kiselo mleko i svežu salatu.", image: "" }
     ]
   },
   {
