@@ -82,7 +82,7 @@ const RECIPES = [
     ingredients: [
       "listovi za lazanje 250g",
       "beli sir 250g",
-      "jaja 2",
+      "jaja 3",
       "kisela pavlaka 100g",
       "jogurt 100ml",
       "kisela voda 50ml",
