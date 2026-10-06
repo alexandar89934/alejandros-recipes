@@ -44,7 +44,7 @@ const RECIPES = [
       { text: "Na kraju lagano umešajte usitnjeni beli sir kako bi se ravnomerno rasporedio kroz smesu.", image: "" },
       { text: "Smesu izlijte u podmazanu tepsiju ili rasporedite u kalup za mafine. Pecite oko 30 minuta, odnosno dok proja ne dobije lepu zlatno-smeđu koricu.", image: "" },
       { text: "Gotovu proju poprskajte sa malo vode i pokrijte čistom krpom. Ostavite je nekoliko minuta da odmori i omekša.", image: "" },
-      { text: "Proju isecite i poslužite toplu uz jogurt ili kiselo mleko.", image: "" }
+      { text: "Proju isecite i poslužite toplu uz jogurt ili kiselo mleko.", image: "images/proja-sa-sirom-1.jpg" }
     ]
   },
   {
