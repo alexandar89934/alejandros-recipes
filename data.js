@@ -455,6 +455,34 @@ const RECIPES = [
       { text: "Čizkejk stavite u frižider i ostavite ga da se dobro ohladi i stegne, najbolje preko noći.", image: "" },
       { text: "Ohlađeni čizkejk pažljivo izvadite iz kalupa, isecite na parčiće i poslužite dobro rashlađen.", image: "" }
     ]
+  },{
+    id: "san-sebastian-cheesecake",
+    title: "San Sebastian Cheesecake",
+    tags: ["dezert", "slatko", "cheesecake"],
+    image: "images/san-sebastian-cheesecake.jpg",
+    description: "Kremasti San Sebastian cheesecake sa karakterističnom tamno zapečenom koricom i mekom, gotovo tečnom sredinom. Priprema je jednostavna, a kolač je najbolji nakon što odstoji preko noći u frižideru.",
+    ingredients: [
+      "punomasni krem sir 650g",
+      "jaja 5",
+      "šećer 180g",
+      "gustin 30g",
+      "limunov sok 1 kašika",
+      "ekstrakt vanile 3 kašičice ili burbon vanilin šećer 3 kesice",
+      "mlečna slatka pavlaka 400ml",
+      "mlečna čokolada za serviranje"
+    ],
+    steps: [
+      { text: "Sve sastojke mutite kratko, samo onoliko koliko je potrebno da se sjedine. Krem sir i šećer stavite u posudu i kratko umutite mikserom.", image: "" },
+      { text: "Kroz sito dodajte gustin i ponovo kratko umutite samo dok se ne sjedini sa smesom.", image: "" },
+      { text: "Jaja razmutite viljuškom, dodajte ih u smesu i kratko umutite. Zatim dodajte limunov sok i ekstrakt vanile ili burbon vanilin šećer i ponovo kratko umutite.", image: "" },
+      { text: "Na kraju dodajte neumućenu slatku pavlaku i kratko umutite samo dok ne dobijete potpuno ujednačenu smesu. Nemojte previše mutiti kako ne biste uneli mnogo vazduha.", image: "" },
+      { text: "Kalup prečnika 20cm obložite papirom za pečenje sa svih strana. Sipajte smesu u kalup i nekoliko puta lagano lupite kalupom o radnu površinu kako bi izašli veći mehurići vazduha.", image: "" },
+      { text: "Rernu prethodno zagrejte na 240°C sa uključenim ventilatorom. Pecite cheesecake oko 30 minuta. Površina treba da bude izrazito tamnozlatna do tamnosmeđa, dok sredina treba da ostane mekana i da se vidljivo trese kada pomerite kalup.", image: "" },
+      { text: "Odmah nakon pečenja izvadite cheesecake iz rerne. Nemojte pokušavati da ga dodatno pečete ako sredina deluje nedovoljno pečeno — upravo takva tekstura je karakteristična za San Sebastian cheesecake.", image: "" },
+      { text: "Ostavite kolač da se potpuno ohladi na sobnoj temperaturi, a zatim ga prebacite u frižider i ostavite preko noći.", image: "" },
+      { text: "Pred služenje cheesecake izvadite iz frižidera, pažljivo skinite papir za pečenje i isecite ga na parčad. Po želji poslužite uz otopljenu mlečnu čokoladu.", image: "" },
+      { text: "Cheesecake je najbolji nakon što odstoji preko noći, a ukus i tekstura postaju još bolji što duže odmara u frižideru.", image: "" }
+    ]
   },
   {
     id: "kolac-sa-makom-i-plazma-keksom",
