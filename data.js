@@ -294,6 +294,33 @@ const RECIPES = [
     ]
   },
   {
+    id: "domace-palacinke",
+    title: "Domaće palačinke",
+    tags: ["doručak", "dezert", "slatko", "osnovni recept"],
+    image: "images/domace-palacinke.jpg",
+    description: "Tanke, mekane i elastične palačinke sa lepom zlatnosmeđom bojom. Tajna dobre smese je u postepenom dodavanju mleka, temeljnom uklanjanju grudvica i odmaranju testa pre pečenja.",
+    ingredients: [
+      "brašno tip 400 200g",
+      "jaja 2",
+      "mleko 300ml",
+      "ulje 100ml, od čega 50ml za smesu, a ostatak za podmazivanje tiganja",
+      "šećer 1 kašičica",
+      "so 1 prstohvat",
+    ],
+    steps: [
+      { text: "U većoj posudi umutite jaja, dodajte šećer i mešajte dok se šećer ne rastvori.", image: "" },
+      { text: "Dodajte 50ml ulja i kratko umutite kako bi se sjedinilo sa jajima.", image: "" },
+      { text: "Dodajte brašno i prstohvat soli. Postepeno sipajte deo mleka uz neprestano mešanje dok ne dobijete gustu, glatku smesu bez grudvica.", image: "" },
+      { text: "Postepeno dodajte preostalo mleko, dok ne dobijete retko i glatko testo koje se lako razliva po tiganju.", image: "" },
+      { text: "Ostavite testo da odmori 20–30 minuta na sobnoj temperaturi ili u frižideru da prenoći što bi se smatralo idealnim. Nakon odmaranja ga kratko promešajte.", image: "" },
+      { text: "Dobro zagrejte nelepljivi tiganj sa debljim dnom. Lagano ga premažite sa malo ulja, koristeći četkicu ili papirni ubrus.", image: "" },
+      { text: "Sipajte manju kutlaču smese u tiganj i kružnim pokretima ga nagnite kako bi se testo ravnomerno rasporedilo u tankom sloju.", image: "" },
+      { text: "Pecite oko minut, odnosno dok se ivice ne odvoje od tiganja, a donja strana dobije zlatnosmeđu boju. Okrenite palačinku i pecite još kratko sa druge strane.", image: "" },
+      { text: "Ponavljajte postupak dok ne potrošite smesu. Tiganj po potrebi ovlaš premažite uljem nakon svake druge ili treće palačinke.", image: "" },
+      { text: "Gotove palačinke slažite jednu na drugu kako bi ostale mekane. Poslužite ih uz omiljeni slatki ili slani nadev.", image: "" }
+    ]
+  },
+  {
     id: "francuski-tart-borovnice",
     title: "Francuski tart sa borovnicama i krem sirom",
     tags: ["dezert"],
