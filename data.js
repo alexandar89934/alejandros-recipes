@@ -294,6 +294,53 @@ const RECIPES = [
     ]
   },
   {
+    id: "sos-pavlaka-parmezan",
+    title: "Sos od pavlake i parmezana",
+    tags: ["ručak", "večera", "sos"],
+    image: "images/sos-pavlaka-parmezan.jpg",
+    description: "",
+    ingredients: [
+      "200 ml pavlake za kuvanje",
+      "50–70 g rendanog parmezana (po ukusu)",
+      "1 kašika putera ili masti (za bogatiju teksturu)",
+      "so i biber po ukusu",
+      "1 čen belog luka, sitno iseckan (opciono)",
+      "malo muškatnog oraščića ili italijanskih začina (opciono)"
+    ],
+    steps: [
+      { text: "U tiganju na laganoj vatri otopiti puter.", image: "" },
+      { text: "Ako se koristi beli luk, prvo ga propržiti 20–30 sekundi da zamiriše (ne sme da potamni).", image: "" },
+      { text: "Dodati pavlaku za kuvanje i mešati da se sjedini sa puterom.", image: "" },
+      { text: "Dodati rendani parmezan, polako uz mešanje, dok se ne istopi.", image: "" },
+      { text: "Krčkati 3–5 minuta na srednjoj vatri, dok se sos ne zgusne.", image: "" },
+      { text: "Dodati so i biber po ukusu (parmezan je već slan, pažljivo sa solju).", image: "" },
+      { text: "Opciono, ubaciti malo dodatnih začina za jači ukus.", image: "" }
+    ]
+  },
+  {
+    id: "pesto-sos",
+    title: "Pesto sos",
+    tags: ["sos", "brzo", "vegetarijansko"],
+    image: "images/pesto-sos.jpg",
+    description: "Klasičan pesto sos od svežeg bosiljka, pinjola, parmezana, belog luka i maslinovog ulja. Idealan je uz testeninu, njoke, sendviče ili kao dodatak različitim jelima.",
+    ingredients: [
+      "svež bosiljak 100g",
+      "beli luk 4 čena",
+      "pinjoli 100g",
+      "parmezan 100g",
+      "maslinovo ulje 200ml",
+      "so po ukusu"
+    ],
+    steps: [
+      { text: "Svež bosiljak operite i dobro osušite. Odvojite listove od stabljika.", image: "" },
+      { text: "U blender ili secko stavite listove bosiljka, čenove belog luka i pinjole.", image: "" },
+      { text: "Dodajte narendani parmezan i kratko izmiksajte sve sastojke.", image: "" },
+      { text: "Postepeno dodajte maslinovo ulje uz miksanje dok ne dobijete gust, kremast sos željene teksture.", image: "" },
+      { text: "Probajte pesto i dodajte so po ukusu. Kratko još jednom izmiksajte kako bi se svi sastojci sjedinili.", image: "" },
+      { text: "Gotov pesto sos možete odmah koristiti uz testeninu, njoke ili drugo jelo. Čuvajte ga u frižideru u zatvorenoj posudi.", image: "" }
+    ]
+  },
+  {
     id: "domace-palacinke",
     title: "Domaće palačinke",
     tags: ["doručak", "dezert", "slatko", "osnovni recept"],
@@ -390,7 +437,6 @@ const RECIPES = [
       "šećer u prahu 5-10g",
       "ekstrakt vanile 10ml",
       "so 2-3 prstohvata",
-
       "tamna čokolada 30-50g, za strugotine (opciono, za dekoraciju)"
     ],
     steps: [
@@ -683,52 +729,5 @@ const RECIPES = [
       { text: "Preko pavlake rasporedite voće po želji i ukrasite listićima sveže mente.", image: "" },
       { text: "Pavlovu možete odmah poslužiti ili je pre služenja kratko ohladiti u frižideru.", image: "" }
     ]
-  },
-  {
-    id: "sos-pavlaka-parmezan",
-    title: "Sos od pavlake i parmezana",
-    tags: ["ručak", "večera", "sos"],
-    image: "images/sos-pavlaka-parmezan.jpg",
-    description: "",
-    ingredients: [
-      "200 ml pavlake za kuvanje",
-      "50–70 g rendanog parmezana (po ukusu)",
-      "1 kašika putera ili masti (za bogatiju teksturu)",
-      "so i biber po ukusu",
-      "1 čen belog luka, sitno iseckan (opciono)",
-      "malo muškatnog oraščića ili italijanskih začina (opciono)"
-    ],
-    steps: [
-      { text: "U tiganju na laganoj vatri otopiti puter.", image: "" },
-      { text: "Ako se koristi beli luk, prvo ga propržiti 20–30 sekundi da zamiriše (ne sme da potamni).", image: "" },
-      { text: "Dodati pavlaku za kuvanje i mešati da se sjedini sa puterom.", image: "" },
-      { text: "Dodati rendani parmezan, polako uz mešanje, dok se ne istopi.", image: "" },
-      { text: "Krčkati 3–5 minuta na srednjoj vatri, dok se sos ne zgusne.", image: "" },
-      { text: "Dodati so i biber po ukusu (parmezan je već slan, pažljivo sa solju).", image: "" },
-      { text: "Opciono, ubaciti malo dodatnih začina za jači ukus.", image: "" }
-    ]
-  },
-  {
-    id: "pesto-sos",
-    title: "Pesto sos",
-    tags: ["sos", "brzo", "vegetarijansko"],
-    image: "images/pesto-sos.jpg",
-    description: "Klasičan pesto sos od svežeg bosiljka, pinjola, parmezana, belog luka i maslinovog ulja. Idealan je uz testeninu, njoke, sendviče ili kao dodatak različitim jelima.",
-    ingredients: [
-      "svež bosiljak 100g",
-      "beli luk 4 čena",
-      "pinjoli 100g",
-      "parmezan 100g",
-      "maslinovo ulje 200ml",
-      "so po ukusu"
-    ],
-    steps: [
-      { text: "Svež bosiljak operite i dobro osušite. Odvojite listove od stabljika.", image: "" },
-      { text: "U blender ili secko stavite listove bosiljka, čenove belog luka i pinjole.", image: "" },
-      { text: "Dodajte narendani parmezan i kratko izmiksajte sve sastojke.", image: "" },
-      { text: "Postepeno dodajte maslinovo ulje uz miksanje dok ne dobijete gust, kremast sos željene teksture.", image: "" },
-      { text: "Probajte pesto i dodajte so po ukusu. Kratko još jednom izmiksajte kako bi se svi sastojci sjedinili.", image: "" },
-      { text: "Gotov pesto sos možete odmah koristiti uz testeninu, njoke ili drugo jelo. Čuvajte ga u frižideru u zatvorenoj posudi.", image: "" }
-    ]
-  },
+  }
 ]
