@@ -689,6 +689,39 @@ const RECIPES = [
     ]
   },
   {
+    id: "nevidljivi-kolac-sa-jabukama",
+    title: "Nevidljivi kolač sa jabukama (Gâteau Invisible)",
+    tags: ["dezert", "slatko", "voćno", "jabuke"],
+    image: "images/nevidljivi-kolac-jabuke.jpg",
+    description: "Nežan i sočan francuski kolač sa veoma tankim slojevima jabuka obavijenim laganim, kremastim testom nalik pudingu. Tokom pečenja jabuke upijaju testo i stvaraju karakteristične slojeve, zbog čega je kolač poznat kao nevidljivi kolač. Najlepši je dobro ohlađen.",
+    ingredients: [
+      "jabuke 4–5 velikih",
+      "jaja 3",
+      "mleko 120ml",
+      "puter 40g, istopljen",
+      "šećer 100g",
+      "brašno 65g",
+      "prašak za pecivo 1 kašičica",
+      "ekstrakt vanile 1 kašičica",
+      "cimet 1/2 kašičice",
+      "so 1/4 kašičice",
+      "šećer u prahu za posipanje"
+    ],
+    steps: [
+      { text: "Rernu prethodno zagrejte na 175°C. Manji kalup za hleb, dimenzija približno 23 × 13 cm, obložite papirom za pečenje.", image: "" },
+      { text: "Jabuke oljuštite, odstranite im sredinu sa semenkama i isecite na veoma tanke listiće, debljine oko 1–2 mm. Najlakše je koristiti mandolinu za sečenje.", image: "" },
+      { text: "U većoj posudi penasto umutite jaja sa šećerom dok smesa ne postane svetla i blago vazdušasta.", image: "" },
+      { text: "Dodajte istopljeni i prohlađeni puter, mleko i ekstrakt vanile, pa sve dobro sjedinite.", image: "" },
+      { text: "U posebnoj posudi pomešajte brašno, prašak za pecivo, cimet i so. Dodajte suve sastojke u smesu sa jajima i mešajte žicom dok ne dobijete glatko, retko testo, slično testu za palačinke.", image: "" },
+      { text: "U pripremljeno testo dodajte tanke listiće jabuka i pažljivo promešajte špatulom kako bi svaki listić bio obložen testom, a da se pritom ne polomi.", image: "" },
+      { text: "Smesu sa jabukama prebacite u pripremljeni kalup. Pažljivo rasporedite i poravnajte jabuke, blago pritiskajući slojeve kako bi se uklonili veći džepovi vazduha. Prelijte preostalim testom iz posude.", image: "" },
+      { text: "Pecite u prethodno zagrejanoj rerni na 175°C oko 50–60 minuta, dok površina ne dobije lepu zlatnu boju, a sredina se ne stegne. Ako vrh počne prebrzo da tamni, prekrijte ga aluminijumskom folijom.", image: "" },
+      { text: "Izvadite kolač iz rerne i ostavite ga da se potpuno ohladi u kalupu na sobnoj temperaturi.", image: "" },
+      { text: "Ohlađeni kolač stavite u frižider na najmanje 2–3 sata, a najbolje preko noći, kako bi se slojevi jabuka lepo steg­nuli i povezali.", image: "" },
+      { text: "Pažljivo izvadite kolač iz kalupa, pospite šećerom u prahu i isecite na tanke kriške. Poslužite dobro ohlađen.", image: "" }
+    ]
+  },
+  {
     id: "pavlova-sa-vocem",
     title: "Pavlova sa vanila kremom i voćem",
     tags: ["dezert", "slatko", "voćno"],
