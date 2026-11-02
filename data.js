@@ -339,6 +339,67 @@ const RECIPES = [
     ]
   },
   {
+    id: "domace-krompir-njoke",
+    title: "Domaće krompir-njoke",
+    tags: ["prilog", "italijanska kuhinja", "krompir", "domaće testo"],
+    image: "images/domace-krompir-njoke.jpg",
+    description: "Mekane i ukusne domaće njoke pripremljene od krompir pirea sa puterom. Prvo se pravi jednostavan, kremasti pire, koji se nakon hlađenja pretvara u testo uz dodatak jajeta i brašna. Njoke se mogu kuvati odmah ili zamrznuti i koristiti po potrebi.",
+    ingredients: [
+      "500 g krompira",
+      "30–50 g putera",
+      "so po ukusu",
+      "malo mleka, po potrebi",
+      "1 jaje",
+      "200–250 g glatkog brašna, po potrebi"
+    ],
+    steps: [
+      {
+        text: "Krompir oljuštite, isecite na podjednake komade i stavite da se kuva u posoljenoj vodi. Kuvajte dok potpuno ne omekša, tako da se lako može izgnječiti viljuškom.",
+        image: ""
+      },
+      {
+        text: "Ocedite krompir i vratite ga u šerpu. Dodajte puter i so, pa ga dobro izgnječite gnječilicom ili umutite mikserom dok ne dobijete gladak pire. Po potrebi dodajte malo mleka, ali pazite da pire ne bude previše redak, jer će kasnije biti potrebno više brašna za testo.",
+        image: ""
+      },
+      {
+        text: "Pire ostavite da se potpuno prohladi. Ovo je važno kako se jaje ne bi skuvalo prilikom dodavanja i kako bi testo imalo odgovarajuću strukturu.",
+        image: ""
+      },
+      {
+        text: "U ohlađeni pire dodajte jedno jaje i dobro promešajte da se sjedini sa krompirom.",
+        image: ""
+      },
+      {
+        text: "Postepeno dodajte glatko brašno i rukama zamesite meko, glatko i podatno testo. Količina brašna zavisi od vlažnosti pirea, pa ga dodajte malo po malo dok testo ne prestane previše da se lepi za ruke. Nemojte predugo mesiti kako njoke ne bi postale žilave.",
+        image: ""
+      },
+      {
+        text: "Testo podelite na nekoliko delova. Svaki deo na blago pobrašnjenoj površini oblikujte u dugačak valjak, debljine približno 1,5–2 cm.",
+        image: ""
+      },
+      {
+        text: "Valjke isecite nožem na manje komade željene veličine. Po želji svaki komad blago pritisnite viljuškom kako biste dobili karakteristične žlebove koji će bolje zadržavati sos.",
+        image: ""
+      },
+      {
+        text: "Ako njoke pripremate za zamrzavanje, rasporedite ih na tacnu posutu brašnom tako da se međusobno ne dodiruju. Stavite tacnu u zamrzivač dok se njoke potpuno ne stegnu, a zatim ih prebacite u kesu ili posudu za zamrzavanje.",
+        image: ""
+      },
+      {
+        text: "Kada želite da ih pripremite, stavite veću šerpu vode da provri i blago je posolite. Zamrznute njoke nije potrebno prethodno odmrzavati. Kuvajte ih u manjim turama kako se ne bi slepile.",
+        image: ""
+      },
+      {
+        text: "Kada njoke isplivaju na površinu, kuvajte ih još oko 30 sekundi, a zatim ih izvadite šupljikavom kašikom i ocedite.",
+        image: ""
+      },
+      {
+        text: "Poslužite ih odmah uz omiljeni sos ili ih kratko propržite na puteru za dodatnu aromu.",
+        image: ""
+      }
+    ]
+  },
+  {
     id: "domace-palacinke",
     title: "Domaće palačinke",
     tags: ["doručak", "dezert", "slatko", "osnovni recept"],
