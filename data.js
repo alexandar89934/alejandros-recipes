@@ -171,6 +171,60 @@ const RECIPES = [
     ]
   },
   {
+    id: "mac-and-cheese",
+    title: "Mac and Cheese – kremasti makaroni sa sirom",
+    tags: ["glavno jelo", "testenina", "sir", "američka kuhinja", "brzo i jednostavno"],
+    image: "images/mac-and-cheese.jpg",
+    description: "Klasični američki Mac and Cheese – makaroni obavijeni bogatim, kremastim sosom od čedara, parmezana i putera. Jednostavno jelo koje se priprema brzo, a može se poslužiti odmah dok je sos svilenkast i kremast ili dodatno zapeći u rerni za hrskavu koricu.",
+    ingredients: [
+      "500 g makarona ili druge manje testenine",
+      "50 g putera",
+      "2 kašike glatkog brašna",
+      "500 ml mleka (do 700 ml za ređi sos)",
+      "150–200 g rendanog čedar sira",
+      "40–50 g rendanog parmezana",
+      "malo gaude ili kačkavalja, po želji",
+      "so po ukusu",
+      "sveže mleveni biber po ukusu",
+      "prstohvat muskatnog oraščića",
+      "prezle ili dodatni sir za zapečenu verziju, po želji"
+    ],
+    steps: [
+      {
+        text: "U velikoj šerpi zagrejte vodu, posolite je i skuvajte makarone prema uputstvu na pakovanju, ali ih izvadite minut ranije kako bi ostale al dente. Ocedite ih i ostavite sa strane.",
+        image: ""
+      },
+      {
+        text: "U drugoj šerpi na tihoj do srednjoj vatri otopite puter. Dodajte brašno i mešajte žicom oko 1–2 minuta, dok se ne sjedini i blago ne uprži. Pazite da brašno ne potamni.",
+        image: ""
+      },
+      {
+        text: "Postepeno dodajte mleko uz neprestano mešanje žicom kako se ne bi stvorile grudvice. Kuvajte na umerenoj vatri dok sos ne počne da se zgušnjava i dobije glatku, kremastu teksturu.",
+        image: ""
+      },
+      {
+        text: "Dodajte so, biber i prstohvat muskatnog oraščića. Nastavite da kuvate još nekoliko minuta uz povremeno mešanje, dok sos ne postane dovoljno gust da obloži kašiku.",
+        image: ""
+      },
+      {
+        text: "Sklonite šerpu sa vatre. Dodajte rendani čedar i parmezan, a po želji i malo gaude ili kačkavalja. Mešajte dok se sav sir ne otopi i dok ne dobijete gladak, bogat sos.",
+        image: ""
+      },
+      {
+        text: "U sos dodajte oceđene makarone i dobro promešajte kako bi svaki komad testenine bio obložen kremastim sosom. Ako je sos previše gust, dodajte još malo mleka i promešajte.",
+        image: ""
+      },
+      {
+        text: "Poslužite odmah dok su makaroni topli i kremasti.",
+        image: ""
+      },
+      {
+        text: "Za zapečenu verziju, prebacite makarone u blago podmazanu vatrostalnu posudu. Po vrhu pospite dodatni rendani sir ili prezle i pecite u prethodno zagrejanoj rerni na 180°C oko 15–20 minuta, dok površina ne dobije zlatnu i hrskavu koricu.",
+        image: ""
+      }
+    ]
+  },
+  {
     id: "rizoto-sa-piletinom-u-belom-vinu",
     title: "Kremasti rižoto sa piletinom u belom vinu",
     tags: ["ručak", "piletina", "italijansko", "kremasto"],
