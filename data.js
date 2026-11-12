@@ -346,6 +346,53 @@ const RECIPES = [
     ]
   },
   {
+    id: "starinski-podvarak",
+    title: "Starinski podvarak",
+    tags: ["glavno jelo", "tradicionalna kuhinja", "srpska kuhinja", "kiseli kupus", "meso", "jelo iz rerne"],
+    image: "images/starinski-podvarak.jpg",
+    description: "Starinski domaći podvarak, pripremljen polako i jednostavno, baš kao nekada. Kiseli kupus se prvo proprži sa lukom na masnoći na kojoj se peklo meso, a zatim se dugo krčka u rerni dok ne omekša i upije sve ukuse. Može se pripremati sa piletinom, šniclama, suvim mesom ili pancetom – po ukusu i želji.",
+    ingredients: [
+      "kiseli kupus, količina po želji (oko 1–1,5 kg za 4 osobe)",
+      "1 glavica crnog luka",
+      "meso po želji (piletina, svinjske šnicle, suvo meso ili panceta)",
+      "ulje ili mast, po potrebi",
+      "1/2 kašike aleve paprike",
+      "biber u zrnu po ukusu",
+      "nekoliko listova lovora",
+      "so po ukusu, pažljivo zbog slanoće kupusa i suvog mesa"
+    ],
+    steps: [
+      {
+        text: "Meso po izboru isecite na komade ako je potrebno, pa ga propržite ili zapecite na malo ulja ili masti dok ne dobije lepu boju. Izvadite meso u posebnu posudu, a masnoću i sokove od pečenja ostavite u šerpi ili tiganju.",
+        image: ""
+      },
+      {
+        text: "Crni luk sitno iseckajte i propržite na istoj masnoći na kojoj se peklo meso, dok ne omekša i postane staklast.",
+        image: ""
+      },
+      {
+        text: "Kiseli kupus isecite na tanke trakice. Dodajte ga u šerpu sa lukom i pržite oko 30 minuta na umerenoj vatri, uz često mešanje kako ne bi zagoreo ili se zalepio za dno.",
+        image: ""
+      },
+      {
+        text: "Dodajte alevu papriku, biber u zrnu i nekoliko listova lovora. Promešajte da se začini ravnomerno rasporede. Probajte kupus i po potrebi dodajte malo soli, vodeći računa o tome koliko je već slan.",
+        image: ""
+      },
+      {
+        text: "Proprženi kupus prebacite u vatrostalnu posudu ili dublji pleh pogodan za pečenje. Rasporedite meso preko kupusa ili ga delimično utisnite u njega.",
+        image: ""
+      },
+      {
+        text: "Posudu dobro prekrijte aluminijumskom folijom i stavite u prethodno zagrejanu rernu na 180°C. Pecite oko 2 sata, dok kupus potpuno ne omekša i ukusi se lepo sjedine. Tokom pečenja nemojte mešati.",
+        image: ""
+      },
+      {
+        text: "Pred kraj pečenja možete ukloniti foliju ako želite da se meso i površina kupusa dodatno zapeku. Poslužite toplo, kao samostalno jelo.",
+        image: ""
+      }
+    ]
+  },
+  {
     id: "sos-pavlaka-parmezan",
     title: "Sos od pavlake i parmezana",
     tags: ["ručak", "večera", "sos"],
