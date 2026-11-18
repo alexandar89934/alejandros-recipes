@@ -54,16 +54,17 @@ const RECIPES = [
     image: "images/gibanica.jpg",
     description: "Sočna i hrskava gibanica sa sirom, jajima i kiselom pavlakom.",
     ingredients: [
-      "deblje kore 600g",
+      "deblje kore 500g",
       "sir 500g",
       "jaja 4-5",
-      "kisela voda 2dl",
-      "ulje 1/2 čaše",
+      "kisela voda 200ml",
+      "ulje 100ml",
       "prašak za pecivo 1 kesica",
-      "kisela pavlaka 1 čaša",
+      "kisela pavlaka ili jogurt 1 čaša",
       "so 1-1,5 kašičica"
     ],
     steps: [
+      { text: "Savet je da se gibanica pripremi uveče i prenoći u frižideru. A sledeći dan pre pečenja ostaviti na sobnoj temperaturi bar pola sata.", image: "" },
       { text: "Umutite jaja žicom, izgnječite sir i pomešajte. Dodajte kiselu vodu, ulje, prašak za pecivo, so i kiselu pavlaku. Dobro sjedinite sve sastojke.", image: "" },
       { text: "Nauljite tepsiju i stavite jednu i po koru tako da prekrije dno i malo viri sa svih strana tepsije.", image: "" },
       { text: "Ostavite jednu celu koru sa strane za prekrivanje pite, a ostale kore isecite na pola. Svaku polovinu umočite u fil, zgužvajte i ređajte u tepsiju dok ne prekrijete celo dno.", image: "" },
